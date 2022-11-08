@@ -47,8 +47,30 @@ let dif = number - stringNumber;
 console.log(dif)
 ```
 
-In the example above, JavaScript will coerce stringNumber into a number datatype, then perform the operation. The value of dif will be the difference between `10` and `9` which is `1`.
+In the example above, JavaScript will coerce `stringNumber` into a number datatype, then perform the operation. The value of dif will be the difference between `10` and `9` which is `1`.
 <br>
+
+<strong>Example 2: Number to String Conversion</strong> 
+
+When the math operator such addition (+) is used between a string and a number, the number will be converted to a string and JavaScript will concatenate the two strings together. 
+
+```
+const number = 10;
+const stringNumber = "9";
+
+let sum = number + stringNumber;
+
+console.log(sum)
+```
+
+In the example above, JavaScript will coerce `number` into the string datatype resulting in `10` being added to `stringNumber`.  Because of coercion, the result of `number + stringNumber` results in the string `"109"`
+
+<strong>Example 3: Boolean to Number</strong> 
+
+
+
+
+
 
 ## Q9: Explain data types, using examples from the JavaScript programming language
 
