@@ -34,7 +34,7 @@ In JavaScript, type coercion includes conversions such as string to number, numb
 
 *Below are examples of type coercion using examples from JavaScript.*
 
-<strong>Example 1:String to Number Conversion</strong> 
+<strong>Example 1: String to Number Conversion</strong> 
 
 When math operators such as subtraction (-), division (/), multiplication (*), or modulus (%) are used, all values involved that are not number are converted to the number datatype. This occurs because these operations can only be applied to the number datatype. 
 
@@ -67,8 +67,17 @@ In the example above, JavaScript will coerce `number` into the string datatype r
 
 <strong>Example 3: Boolean to Number</strong> 
 
+When a number and a Boolean are added together, the Boolean is converted to a number in order to complete the operation. If the Boolean value is `false`, it will be converted into the number `0`. If the boolean value is `true`, it will be converted into the number `1`. 
 
+```
+const number = 10;
 
+let sum = false + 10;
+
+console.log(sum)
+```
+
+In the example above, JavaScript will coerce the Boolean value `false` into the number `0`. Because of coercion, the result of `false + 10` is the number `10`.  
 
 
 
