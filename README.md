@@ -4,8 +4,25 @@
 <br>
 
 ## Q2: What are the most important aspects of quality software?
+*When it comes to building quality software, there are numerous important aspects that must be taken into consideration.  From reliability to usability, the quality of each aspect must be meticulously ensured in order to provide the highest quality of software.  The main pillars of quality software consist of the following: usability, reliability, understandability, testability, portability, and efficiency. Below, each of these aspects will be discussed in detail.*
+
+## <strong>Aspects of Quality Software</strong>
 
 <br>
+
+## Usability:
+
+Usability is measured by how easy the software is to use. Software should be user friendly, easily navigated, and relatively simple to learn.  User's skills often vary greatly, so creating intuitive software is key in ensuring all users have a great experience. Users should also be able to to use the core features of software without much help.  This means that key features should be as self-explanatory as possible.
+
+## Reliability:
+
+Consistency is key when it comes to software reliability. Software should always behave in a consistent manner regardless of the environment and conditions. The way in which software handles errors is also important when it comes to reliability. It is paramount that errors occur as little as possible and when they do ocurr, they should be handled gracefully.
+
+## Understandability
+
+Understandability includes the ensuring that the every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software enginner can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth and the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
+
+## 
 
 ## Q3: Outline a standard high level structure for a MERN stack application and explain the components
 
