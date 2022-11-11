@@ -1,5 +1,11 @@
 # T3A1 Workbook
 ## Q1: Provide an overview and description of a standard source control process for a large project
+*Source control is the management and tracking of changes to code. Large projects often have numerous individuals contributing and writing code simultaneously. In order to prevent bugs, conflicts, and overwriting other's code, source control is relied on to ensure the development process is smooth with little wasted time backtracking. The standard source control process that will be discussed below is the Git Feature Branch workflow.*
+
+### <strong> Git Feature Branch Overview </strong>
+The Feature Branch Workflow is the
+
+
 
 <br>
 
@@ -16,13 +22,13 @@ Usability is measured by how easy the software is to use. Software should be use
 
 ## Reliability:
 
-Consistency is key when it comes to software reliability. Software should always behave in a consistent manner regardless of the environment and conditions. The way in which software handles errors is also important when it comes to reliability. It is paramount that errors occur as little as possible and when they do ocurr, they should be handled gracefully.
+Consistency is key when it comes to software reliability. Software should always behave in a consistent manner regardless of the environment and conditions. The way in which software handles errors is also important when it comes to reliability. It is paramount that errors occur as little as possible and when they do occur, they should be handled gracefully.
 
 ## Understandability
 
-Understandability includes the ensuring that the every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software enginner can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth and the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
+Understandability includes the ensuring that the every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software engineer can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth and the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
 
-## 
+<br>
 
 ## Q3: Outline a standard high level structure for a MERN stack application and explain the components
 
@@ -47,7 +53,7 @@ Understandability includes the ensuring that the every component and the overall
 ## Q8: Explain type coercion, using examples from the JavaScript programming language
 Type coercion is the automatic conversion of a value from one datatype to another. Type coercion is also known as implicit conversion, meaning it is done by code behind the scenes rather than manually. 
 
-In JavaScript, type coercion includes conversions such as string to number, number to string, and boolean to number, to name a few. Type coercion is common when operators are used on different data types.   For instance, when a string and a number are added or an equality operator (==) is used on two different dataypes. In these cases, one of the datatypes will be automatically converted to allow the operation to complete successfully. 
+In JavaScript, type coercion includes conversions such as string to number, number to string, and boolean to number, to name a few. Type coercion is common when operators are used on different data types.   For instance, when a string and a number are added or an equality operator (==) is used on two different data types. In these cases, one of the data types will be automatically converted to allow the operation to complete successfully. 
 
 *Below are examples of type coercion using examples from JavaScript.*
 
