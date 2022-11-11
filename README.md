@@ -12,43 +12,40 @@ The Feature Branch Workflow is the
 ## Q2: What are the most important aspects of quality software?
 *When it comes to building quality software, there are numerous important aspects that must be taken into consideration.  From reliability to usability, the quality of each aspect must be meticulously ensured in order to provide the highest quality of software.  The main pillars of quality software consist of the following: usability, reliability, understandability, testability, portability, and efficiency. Below, each of these aspects will be discussed in detail.*
 
-<br>
-
-
 ### <strong>Aspects of Quality Software</strong>
 
-### Usability:
+<strong>Usability:</strong>
 
 Usability is measured by how easy the software is to use. Software should be user friendly, easily navigated, and relatively simple to learn.  User's skills often vary greatly, so creating intuitive software is key in ensuring all users have a great experience. Users should also be able to to use the core features of software without much help.  This means that key features should be as self-explanatory as possible.
 
 <br>
 
-### Reliability:
+<strong>Reliability:</strong>
 
 Consistency is key when it comes to software reliability. Software should always behave in a consistent manner regardless of the environment and conditions. The way in which software handles errors is also important when it comes to reliability. It is paramount that errors occur as little as possible and when they do occur, they should be handled gracefully.
 
 <br>
 
-### Understandability:
+<strong>Understandability:</strong>
 
-Understandability includes the ensuring that the every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software engineer can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth and the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
+Understandability includes the ensuring that the every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software engineer can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth as well as the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
 
 <br>
 
 
-### Testability:
+<strong>Testability:</strong>
 
 Software should be easily testable so that bugs and inconsistencies can be found.  Testability includes the ability to test all components and use cases easily and accurately. This should be one of of the primary concerns when planning the structure of software so that it may be easily divided into modules for testing. Testability ensures that software ships and works as intended.
 
 <br>
 
-### Portability:
+<strong>Portability:</strong>
 
 Portability ensures that software is not limited to specific environments and contexts. Highly portable software is written once with the ability to be deployed in any environment.  With device and operating system combinations having an incredible amount of variations, it is important to ensure that software works as expected in all cases. 
 
 <br>
 
-### Efficiency:
+<strong>Efficiency:</strong>
 
 Efficient software accomplishes its purpose while using as little amount of resources as possible. Resources include, but aren't limited to: memory, disk space, CPU usage, and external service calls. Minimizing resources is critical in development of software that works smoothly and predictably in all environments since resource availability varies greatly between environments. . 
 
