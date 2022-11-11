@@ -17,8 +17,6 @@ The Feature Branch Workflow is the
 
 ### <strong>Aspects of Quality Software</strong>
 
-<br>
-
 ### Usability:
 
 Usability is measured by how easy the software is to use. Software should be user friendly, easily navigated, and relatively simple to learn.  User's skills often vary greatly, so creating intuitive software is key in ensuring all users have a great experience. Users should also be able to to use the core features of software without much help.  This means that key features should be as self-explanatory as possible.
