@@ -294,7 +294,7 @@ In JavaScript, type coercion includes conversions such as string to number, numb
 
 *Below are examples of type coercion using examples from JavaScript.*
 
-<strong>Example 1: String to Number Conversion</strong> 
+<strong>Example 1: String to Number</strong> 
 
 When math operators such as subtraction (-), division (/), multiplication (*), or modulus (%) are used, all values involved that are not number are converted to the number datatype. This occurs because these operations can only be applied to the number datatype. 
 
@@ -310,7 +310,7 @@ console.log(dif)
 In the example above, JavaScript will coerce `stringNumber` into a number datatype, then perform the operation. The value of dif will be the difference between `10` and `9` which is `1`.
 <br>
 
-<strong>Example 2: Number to String Conversion</strong> 
+<strong>Example 2: Number to String</strong> 
 
 When the math operator such addition (+) is used between a string and a number, the number will be converted to a string and JavaScript will concatenate the two strings together. 
 
@@ -343,8 +343,117 @@ In the example above, JavaScript will coerce the Boolean value `false` into the 
 
 ## Q9: Explain data types, using examples from the JavaScript programming language
 
+Data types are a feature of all programming languages, but these types often differ from language to language. A datatype is a classification that specifies the type of value and what type of relational or logical operations can be are allowed to be used on it.  Common data types in most languages include, but are not limited to, integers, booleans, floats, strings, and arrays. 
+
+In JavaScript, there are eight primitive types of data.  These primitive data types include strings, booleans, numbers, BigInt, Symbol, object ,null, and undefined. Of these eight basic data types, seven are primitive and one, Object, is non-primitive.  Object is non-primitive because it can store collections of data while the others can 
+only store one single data. *Below are some examples of data types in JavaScript.*
 
 <br>
+
+### Strings
+Strings are used to to store text in JavaScript. Basic strings are typically surrounded by single quotes or double quotes, but are surrounded by back ticks when variables or expressions are included in the string. 
+
+<strong>Example:</strong>
+
+```
+//single quotes
+const myName = 'David';
+
+//double quotes
+const yourName = "Frank";
+
+//back ticks
+const bestBuds = `${myName} and ${yourName} are best buds!`;
+```
+
+<br>
+
+### Numbers
+Numbers in JavaScript typically represent integers and floats(decimals/exponents), but can also be infinity+, infinity-, and NaN(not a number).
+
+<strong>Example:</strong>
+
+```
+//number
+const bestNumber = 12;
+
+//floating number
+const worstNumber = 66.6;
+
+//floating number
+const confusingNumber = 5e7;
+
+//not a number
+const notNumber = "stuff"/5;
+console.log(notNumber); //result is NaN
+```
+
+<br>
+
+### Booleans
+In JavaScript, Booleans represent one of two values: true or false. 
+
+<strong>Example:</strong>
+
+
+```
+const smellyFeet = true;
+const washedFeet = false;
+```
+<br>
+
+### Undefined
+In JavaScript, the undefined datatype occurs when a value is not assigned. For instance, if a variable is declared but not given a value or a variable is assigned the value undefined.
+
+
+<strong>Example:</strong>
+
+```
+const myName;
+console.log(myName); //result is undefined
+
+const myNameAgain = undefined;
+console.log(myNameAgain); //result is undefined
+```
+
+<br>
+
+### Null
+In JavaScript, null represents an empty value.
+
+<strong>Example:</strong>
+
+```
+const mrNoValue = null;
+```
+
+<br>
+
+### Symbol
+
+In JavaScript, a Symbol represents an immutable and unique primitive value.
+
+<strong>Example:</strong>
+
+```
+//both values contain the same string value, but are different because they are Symbols
+const mySymbol1 = Symbol('best workbook ever');
+const mySymbol2 = Symbol('best workbook ever');
+```
+
+### Object
+
+In JavaScript, an Object represents the only complex data type out of the basic data types because is stores a collection of data rather than one single data. 
+
+<strong>Example:</strong>
+
+```
+const numberOneWorkbook = {
+  owner: 'David',
+  nationality: 'American',
+  grade: 84
+}
+```
 
 ## Q10: Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
