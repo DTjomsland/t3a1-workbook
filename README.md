@@ -200,12 +200,27 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 ### Soft Skills and Knowledge
 
-- <strong>Time Management:</strong>
+
+- <strong>Time Management:</strong> Managing my time was an issue during the creation of my portfolio project, but I feel like I managed it quite well considering my lofty goals with technologies that I had just been acquainted with. I utilized Trello relatively well throughout the development process, but did find myself going off-script fairly often.  While working, I found that if I learned a new skill, I would immediately need to apply it to previously completed work instead of continuing to complete the task at hand which took up a lot of time. The ability stick to the plan and timeline of the project is a skill that I need to work on. 
+
+- <strong>Project Management:</strong> Planning and executing the steps for my portfolio website was well organized for the most part. I had a plan and I stuck to it outside of a few instances where I learned a new skill and applied it elsewhere. A notably good example was how well the website was sorted before I wrote a line of code.  All of my colors, margins, sizes, and fonts were planned beforehand. It saved a lot of time not having to rewrite code over and over because of trial and error. I feel as though this was one of my strongest skills deployed for my portfolio project.
+
+- <strong>Critical Thinking:</strong> This is a skill that I felt I used to the best of my ability at the time.  I spent a lot of time connecting dots and understanding how everything interacts.  Just about every feature had a pros and cons list in order to make the best choices. I would definitely have done certain parts differently based on the knowledge I have now, but given the knowledge I had at the time, I feel like i utilized my critical thinking skills effectively and to the fullest extent given the circumstances.
+
 
 ### Technical Skills and Knowledge
 
+- <strong>HTML:</strong> My HTML knowledge was lacking at the beginning of the project. I was constantly switching between tag types due to confusion and initially overused divs. I was able to fully grasp the use-cases for each tag by the end of the assignment, but I should have spent more time solidifying them before attempting to structure my HTML.  It would have saved quite a bit of time if I had a better understanding from the beginning.
 
+- <strong>CSS:</strong> Styling was the one thing I was very confident about going into the project.  My knowledge of CSS felt solid and I was able to place and style most features without much issue.  If I were to create a similar project, I would definitely spend time gaining more knowledge about SASS and ways in which is expedites the development process. I didn't use too many of it's features for the project.
 
+- <strong>Version Control:</strong> My Git and GitHub Skills and knowledge were not well honed, but were adequate given the size of the project.  I feel I did a good job committing changed frequently throughout the development process.  One area I feel I can improve upon is being diligent about creating new branches for every feature. I was often working on multiple features per branch which was not an issue due to them being relatively small features, but I did have a few issues with breaking my `main` branch and wasting time trying to figure out what feature broke it. 
+
+- <strong>User Experience and User Interface:</strong> My skills in UX/UI were the ones I felt most confident about during the development of the portfolio website. I had used Figma to a large extent before I began the coding process.  The flow and features of the web site were planned early on and fine tuned through many user scenarios. Every placement and style had a reason for why it was there.  One area I was lacking is understanding what the typical breakpoints would be fore devices.  My initial UX design failed to take into account some higher pixel density devices.  Gaining more knowledge about how to handle design for different devices would definitely help improve my skills as a UX designer. 
+
+- <strong>Color Theory:</strong> My skills in color theory were lacking during the creation of the portfolio site.  I feel I some decent raw skills for color choice, but gaining actual knowledge on color theory would've helped me with this project. I relied heavily on color tools such as Coolers to assist me in choosing the color palette.  I think it would be helpful to study color trends and the feelings colors evoke before I develop another website.
+
+- <strong>Prototyping:</strong> My prototyping skills were quite good considering I had just learned how to use Figma.  I spent a great deal of time creating every element on Figma exactly as it should be on the screen. Pixels, color codes, and screen sizes were well planned before a line of code was written.  One area I could use more knowledge on is the advanced prototyping techniques that Figma offers. Constantly having to change colors and styles individually throughout all of my mock-ups was very time consuming, so mastering tools to eliminate that would streamline the development process
 <br>
 
 
