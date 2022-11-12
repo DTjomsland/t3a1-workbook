@@ -245,7 +245,7 @@ Conditional statements are essentially checks to see if a specified condition is
 
 <strong>Code Example:</strong> `if...else` statement
 
-```
+```javascript
 let dog = true;
 if (dog === true) {
     console.log("Who's a good boy!?");
@@ -265,7 +265,7 @@ Loops allow for repetitive tasks to be executed using less code. Instead of havi
 
 <strong>Code Example:</strong> `for` loop
 
-```
+```javascript
 for (let i = 0; i < 9; i++) {
   console.log(i);
 }
@@ -298,7 +298,7 @@ In JavaScript, type coercion includes conversions such as string to number, numb
 
 When math operators such as subtraction (-), division (/), multiplication (*), or modulus (%) are used, all values involved that are not number are converted to the number datatype. This occurs because these operations can only be applied to the number datatype. 
 
-```
+```javascript
 const number = 10;
 const stringNumber = "9";
 
@@ -314,7 +314,7 @@ In the example above, JavaScript will coerce `stringNumber` into a number dataty
 
 When the math operator such addition (+) is used between a string and a number, the number will be converted to a string and JavaScript will concatenate the two strings together. 
 
-```
+```javascript
 const number = 10;
 const stringNumber = "9";
 
@@ -329,7 +329,7 @@ In the example above, JavaScript will coerce `number` into the string datatype r
 
 When a number and a Boolean are added together, the Boolean is converted to a number in order to complete the operation. If the Boolean value is `false`, it will be converted into the number `0`. If the boolean value is `true`, it will be converted into the number `1`. 
 
-```
+```javascript
 const number = 10;
 
 let sum = false + 10;
@@ -355,7 +355,7 @@ Strings are used to to store text in JavaScript. Basic strings are typically sur
 
 <strong>Example:</strong>
 
-```
+```javascript
 //single quotes
 const myName = 'David';
 
@@ -373,7 +373,7 @@ Numbers in JavaScript typically represent integers and floats(decimals/exponents
 
 <strong>Example:</strong>
 
-```
+```javascript
 //number
 const bestNumber = 12;
 
@@ -408,7 +408,7 @@ In JavaScript, the undefined datatype occurs when a value is not assigned. For i
 
 <strong>Example:</strong>
 
-```
+```javascript
 const myName;
 console.log(myName); //result is undefined
 
@@ -423,7 +423,7 @@ In JavaScript, null represents an empty value.
 
 <strong>Example:</strong>
 
-```
+```javascript
 const mrNoValue = null;
 ```
 
@@ -435,7 +435,7 @@ In JavaScript, a Symbol represents an immutable and unique primitive value.
 
 <strong>Example:</strong>
 
-```
+```javascript
 //both values contain the same string value, but are different because they are Symbols
 const mySymbol1 = Symbol('best workbook ever');
 const mySymbol2 = Symbol('best workbook ever');
@@ -447,7 +447,7 @@ In JavaScript, an Object represents the only complex data type out of the basic 
 
 <strong>Example:</strong>
 
-```
+```javascript
 const numberOneWorkbook = {
   owner: 'David',
   nationality: 'American',
@@ -456,7 +456,7 @@ const numberOneWorkbook = {
 ```
 
 ## Q10: Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
-
+Arrays in JavaScript are variables that are used to store different data types and can hold more than one value.
 <br>
 
 ## Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
