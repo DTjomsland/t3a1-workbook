@@ -80,23 +80,38 @@ Efficient software accomplishes its purpose while using as little amount of reso
 
 <br>
 
-### <strong>Database: </strong>
-
-<strong>MongoDB:</strong>
-
-### <strong>Top Tier (Front-end): </strong>
+### <strong>Front-end:</strong>
 
 <strong>React.js:</strong>
 
-React.js is a JavaScript library created by Meta that allows for the development of complex user interfaces. 
-  
+React.js is a JavaScript library created by Meta that allows for the development of complex user interfaces. The primary feature of React.js is the ability to create code that is reusable, which saves large amounts of time in the development process. The key to this feature is that React.js is component based, allowing for components to be reused throughout the application. Another key feature of React.js is that it utilizes a virtual DOM, which is a representation of the original DOM. Changes made only modify the Virtual DOM, which saves resources and time due to eliminating the need to send a request to the server every time the user interacts with the interface. React.js utilizes JavaScript XML (JSX), which is neither HTML or XML, but a syntax extension to JavaScript. JSX assists in describing what the UI should look like and writing the aforemantioned components. 
+
+React's role in MERN stack is provide a user friendly UI that can collect user data and input which can be sent server-side for processing.
+
+<br>
 
 ### <strong>Server-side (Back-end):</strong>
 
-<strong>Express.js:</strong>
-
 <strong>Node.js:</strong>
 
+Node.js is an open source server environment that utilizes JavaScript. 
+
+<strong>Express.js:</strong>
+
+
+
+
+### <strong>Database: </strong>
+
+<strong>MongoDB:</strong>
+MongoDB is a NoSQL database which stores each record as a document. These documents consist of key-value pairs that are similar to JSON objects. MongoDB utilizes JavaScript which keeps the language used uniform across the entire stack. The primary unit of a MongoDB are the individual documents which are identifiable through the use of a primary key. MongoDB makes use of the Mongo shell which allows users to execute CRUD operations through the use of JavaScript.  
+
+MongoDB's role in MERN stack is to store the JSON documents that are created by the React.js front end and processed by the Express.js server. 
+
+
+
+
+  
 
 
 
