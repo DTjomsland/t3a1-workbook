@@ -227,12 +227,60 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 ## Q7: Explain control flow, using an example from the JavaScript programming language
 
+Control flow is the order in which computers execute code. In JavaScript, the computer reads code from top to bottom, line by line, meaning that it starts from the first line and and reads each line in order until it reaches the last line. However, there are structures that can change the control flow.  Structures such as conditionals and loops are used to disrupt the control flow and change the order of execution of the code. Control flow enables our program to make decisions about which code should be executed next.
+
 <br>
 
-### Soft Skills and Knowledge
+*Below are examples from JavaScript of the effect that conditional statements and loops have on the control flow.*
 
+### Example 1: Conditional Statements and Control Flow
 
-### Technical Skills and Knowledge
+Conditional statements are essentially checks to see if a specified condition is true or false. Conditionals direct the control flow by directing the computer to execute different code depending on which condition is met. In short, if the condition is true, the computer will execute Code 1. If the condition is false, the computer will execute Code 2. Conditional statements in JavaScript consist of if...else, switch, and ternary statements.
+
+<br>
+
+<strong>Code Example:</strong> `if...else` statement
+
+```
+let dog = true;
+if (dog === true) {
+    console.log("Who's a good boy!?");
+else {
+    console.log("Ain't no good boys round here!");
+}
+```
+In the example above, the `if` condition is met, so the the line `console.log("Who's a good boy!?")` will be executed. If the `if` condition was not met, the line `console.log("Ain't no good boys round here!")` would be executed. 
+
+<br>
+
+### Example 2: Loops and Control Flow
+
+Loops allow for repetitive tasks to be executed using less code. Instead of having to write out a line of code for every task, you can utilize a loop to perform the same action to each item which manipulates the control flow to achieve the desired result. Examples of loop types in JavaScript include, but aren't limited to, the for loop, while loop and do...while loop. 
+
+<br>
+
+<strong>Code Example:</strong> `for` loop
+
+```
+for (let i = 0; i < 9; i++) {
+  console.log(i);
+}
+
+// Output:
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+```
+
+In the example above, the three optional parameters are used to control the execution of the loop. The syntax for this is `for (initialization; condition; finalExpression)`. The variable `i` begins the loop with a value of `0`, and as long it's value is less than `9` the loop is executed.  After each iteration,  the value of `i` is increased by `1` (`i++`).  This alters the control flow by telling the computer to repeat the process 9 times before moving on. 
+
+<br>
 
 
 ## Q8: Explain type coercion, using examples from the JavaScript programming language
