@@ -193,6 +193,8 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 - <strong>Prototyping:</strong> Knowledge of prototyping software ensured that I knew what I was going to create before I began creating it.  Starting a project without extensive mock-ups and prototypes guarantees that time will be wasted backtracking nd changing features. This was avoided through the use of Figma, which was utilized to create mock-ups of every web page as well as the arrangement of elements on the most common screen sizes.
 
+<br>
+
 ## Q6: With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
 *In reference to my portfolio project, I needed to deploy a large range of skills and knowledge in order to successfully complete my web page. An evaluation of my use of these skills and knowledge will be conducted in detail below.*
 
@@ -207,6 +209,7 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 - <strong>Critical Thinking:</strong> This is a skill that I felt I used to the best of my ability at the time.  I spent a lot of time connecting dots and understanding how everything interacts.  Just about every feature had a pros and cons list in order to make the best choices. I would definitely have done certain parts differently based on the knowledge I have now, but given the knowledge I had at the time, I feel like i utilized my critical thinking skills effectively and to the fullest extent given the circumstances.
 
+<br>
 
 ### Technical Skills and Knowledge
 
@@ -220,7 +223,8 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 - <strong>Color Theory:</strong> My skills in color theory were lacking during the creation of the portfolio site.  I feel I some decent raw skills for color choice, but gaining actual knowledge on color theory would've helped me with this project. I relied heavily on color tools such as Coolers to assist me in choosing the color palette.  I think it would be helpful to study color trends and the feelings colors evoke before I develop another website.
 
-- <strong>Prototyping:</strong> My prototyping skills were quite good considering I had just learned how to use Figma.  I spent a great deal of time creating every element on Figma exactly as it should be on the screen. Pixels, color codes, and screen sizes were well planned before a line of code was written.  One area I could use more knowledge on is the advanced prototyping techniques that Figma offers. Constantly having to change colors and styles individually throughout all of my mock-ups was very time consuming, so mastering tools to eliminate that would streamline the development process
+- <strong>Prototyping:</strong> My prototyping skills were quite good considering I had just learned how to use Figma.  I spent a great deal of time creating every element on Figma exactly as it should be on the screen. Pixels, color codes, and screen sizes were well planned before a line of code was written.  One area I could use more knowledge on is the advanced prototyping techniques that Figma offers. Constantly having to change colors and styles individually throughout all of my mock-ups was very time consuming, so mastering tools to eliminate that would streamline the development process.
+
 <br>
 
 
@@ -335,9 +339,10 @@ console.log(sum)
 
 In the example above, JavaScript will coerce the Boolean value `false` into the number `0`. Because of coercion, the result of `false + 10` is the number `10`.  
 
-
+<br>
 
 ## Q9: Explain data types, using examples from the JavaScript programming language
+
 
 <br>
 
