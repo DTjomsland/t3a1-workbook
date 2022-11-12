@@ -122,22 +122,72 @@ MongoDB is a NoSQL database which stores each record as a document. These docume
 MongoDB's role in MERN stack is to store the JSON documents that are created by the React.js front end and processed by the Express.js server. 
 
 
-
-
-  
-
-
-
 <br>
 
 
 ## Q4: A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
+*When developing a website for a small business, a team must have extensive knowledge and deploy a fairly large amount of soft and technical skills to both streamline the development process and provide a quality product. The required soft and technical skills will be discussed in detail below.* 
+
+<br>
+
+### Soft Skills and Knowledge:
+
+- <strong>Time Management:</strong> Procuring and maintaining a schedule for the development process is key to providing a quality product and ensuring that it is shipped on time. Productivity apps such as Trello are excellent tools to assist with keeping a development team on task and on time. 
+
+- <strong>Client Management:</strong> Maintaining transparency and an excellent relationship with a client ensures that the product is shipped as desired. From staying in contact to keeping the client in the loop about changes and updates, having client management skills is paramount for a smooth development process.
+
+- <strong>Project Management:</strong> Knowing where to start and how to maintain the course for a project is essential to ensuring both the client and developers stay happy. 
+
+- <strong>Interpersonal Skills:</strong> Designing a quality website is often a team effort involving people from various professions.  The ability to provide clear explanations about the vision of the project is incredibly important in order to keep everyone on the same page. 
+
+- <strong>Critical Thinking:</strong> The entire process of creating a website puts critical thinking skills to the test. Every decision, even the smallest, must be well thought out and every consequence for a decision must be considered. 
+
+<br>
+
+### Technical Skills and Knowledge:
+
+- <strong>HTML:</strong> HyperText Markup Language is the foundation for most websites. It is typically the first skill learned and requires in depth knowledge to use appropriately and effectively. HTML provides the structure of a website.
+
+- <strong>CSS:</strong> Cascading Style Sheets defines the visual appearance of HTML. Developers must have extensive knowledge of CSS in order to create a website that is visually appealing and user-friendly.
+
+- <strong>JavaScript:</strong> Interactive components of the front-end of website are handled by JavaScript. Developers must know JavaScript in order to make a modern web application.  JavaScript knowledge also streamlines the development process because it can be used in both the frontend and the backend.
+
+- <strong>Sever-side Languages:</strong> No website is complete without a rock solid backend.  This requires knowledge of common server-side programming languages such as JavaScript, PHP, Python, and Ruby.
+
+- <strong>Database Management Systems:</strong> Knowledge of database management systems is key to providing a website that is both effective and secure. Examples of common database management systems include PostgreSQL and MongoDB.
+
+- <strong>Version Control:</strong> Knowledge and experience with common modern practices of version control is a must in order to ensure that the development process is smooth and consistent. Git is the most widely used version control system.
+
+- <strong>User Experience and User Interface:</strong> UX/UI is paramount in creating a great product in the modern world. Knowledge of UX/UI is key to the development of a product that users enjoy and will return to in the future. 
+
+- <strong>Color Theory:</strong> Knowledge of colors is a must when developing a website. Website color palettes must be appealing to the user, but also must take into consideration the target audience and potential for users to have differing needs.  For example, colorblindness and other visual disabilities.
 
 <br>
 
 ## Q5: With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
+*In reference to my portfolio project, I needed to deploy a large range of skills and knowledge in order to successfully complete my portfolio website. The skills and knowledge that were needed will be discussed in detail below.*
 
 <br>
+
+### Soft Skills and Knowledge
+
+- <strong>Time Management:</strong> Time management skills were a must in order to develop my portfolio website in the allotted amount of time. For this project, I used Trello to keep myself focused, on task, and on time. Each feature was given a Trello card and within each card was a list of tasks that needed to be completed with a due date. As tasks were completed successfully, they would be moved to the *Done* list, and then the development of the feature with the next closest due date would be begin. Trello can only do so much in assisting with time management as it cannot force you to complete the task. That being so, motivation and perseverance were essential in managing my time for this project.
+
+- <strong>Project Management:</strong> Knowing when and where to begin the project as well as ensuring development stayed the course played a major role in the completion and quality of my portfolio website. I deployed project management skills from the start of the project, which included proper planning through the use of Trello, detailed mock-ups on Figma, and hammering out a general theme early (colors, fonts, and design styles). When a task was first able to be completed, I made sure that I did so to prevent any need for backtracking and redoing work. I also implemented a basic Git Feature Branch Workflow that I made sure to stick to in order to keep the project moving forward.
+
+- <strong>Critical Thinking:</strong> Since the material was mostly new to me, I relied heavily on critical thinking skills in order to connect to the dots between the new technologies I learned, as well as thinking ahead about the consequences of my styling choices. Every decision was heavily pondered no matter how insignificant it initially seemed. 
+
+<br>
+
+### Technical Skills and Knowledge:
+
+- <strong>HTML:</strong> The project was completed with very limited knowledge of web based technologies, so I relied heavily on my basic HTML skills and knowledge in order to complete it on time and correctly.  A lot of thought goes into creating a semantically correct web page. Proper usage of the different tags and maintaining appropriate page structure is an important skill to know not just for ease of development, but to ensure the page is accessible to all and easily findable by search engines.
+
+- <strong>CSS:</strong> Knowledge of CSS and SCSS was utilized in the creation of my portfolio project. My web page was very interactive and made extensive use of animations to bring it to life. This required a bit more advanced knowledge of CSS animations and transformations in order to complete.  SCSS knowledge allowed for my style sheet to be as DRY as possible with the use of variables for colors and even the generation of random numbers for my animations. 
+
+- <strong>Version Control:</strong> Git and GitHub were used extensively throughout the development of my portfolio website. My knowledge of these technologies assisted in ensuring that the project stayed organized and kept moving forward.  Utilizing the common version control method of Git Feature Branch Workflow, a working product always remained intact after every merge.  This allowed for me to focus more time on developing and less time on backtracking in order to fix conflicts and bugs.
+
+
 
 ## Q6: With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
 
