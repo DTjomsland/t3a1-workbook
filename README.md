@@ -84,9 +84,9 @@ Efficient software accomplishes its purpose while using as little amount of reso
 
 <strong>React.js:</strong>
 
-React.js is a JavaScript library created by Meta that allows for the development of complex user interfaces. The primary feature of React.js is the ability to create code that is reusable, which saves large amounts of time in the development process. The key to this feature is that React.js is component based, allowing for components to be reused throughout the application. Another key feature of React.js is that it utilizes a virtual DOM, which is a representation of the original DOM. Changes made only modify the Virtual DOM, which saves resources and time due to eliminating the need to send a request to the server every time the user interacts with the interface. React.js utilizes JavaScript XML (JSX), which is neither HTML or XML, but a syntax extension to JavaScript. JSX assists in describing what the UI should look like and writing the aforemantioned components. 
+React.js is a JavaScript library created by Meta that allows for the development of complex user interfaces. The primary feature of React.js is the ability to create code that is reusable, which saves large amounts of time in the development process. The key to this feature is that React.js is component based, allowing for components to be reused throughout the application. Another key feature of React.js is that it utilizes a virtual DOM, which is a representation of the original DOM. Changes made only modify the Virtual DOM, which saves resources and time due to eliminating the need to send a request to the server every time the user interacts with the interface. React.js utilizes JavaScript XML (JSX), which is neither HTML or XML, but a syntax extension to JavaScript. JSX assists in describing what the UI should look like and writing the aforementioned components. 
 
-React's role in MERN stack is provide a user friendly UI that can collect user data and input which can be sent server-side for processing.
+The role of React.js in MERN stack is provide a user friendly UI that can collect user data and input which can be sent server-side for processing.
 
 <br>
 
@@ -94,12 +94,25 @@ React's role in MERN stack is provide a user friendly UI that can collect user d
 
 <strong>Node.js:</strong>
 
-Node.js is an open source server environment that utilizes JavaScript. 
+Node.js is an open source server environment that utilizes JavaScript. Node.js is capable of asynchronous I/O which allows other processing to continue before the entire transmission has finished. 
+
+A typical Node.js file request would look like the following:
+
+- Task is sent to the file system
+- Server is ready to handle the next request
+- When the file system opens and reads the file, then the server sends the content back to the front-end.
+
+This varies significantly from other environments in terms fo efficiency.  Typically, the server is not ready to handle the next request until the entire transmission has finished, meaning the request would need to be handled and the content returned to the front-end before the next task could begin. This greatly reduces the wait time and efficiently uses memory.
+
+The role of Node.js in MERN stack is to provide a server-side environment that can execute JavaScript, in this case, Express.js.
 
 <strong>Express.js:</strong>
 
+Express.js is an unopinionated server-side JavaScript framework that runs inside a Node.js environment. It provides powerful models for URL routing and handling HTTP requests and responses. The Express.js framework is for the most part minimalist, but there are numerous compatible middleware packages created by other developers that can address most problems a developer may face.  
 
+The role of Express.js in MERN stack is to process requests (XHRs/GETs/POSTs) from the React.js front-end and perform CRUD operations on the MongoDB database.
 
+<br>
 
 ### <strong>Database: </strong>
 
