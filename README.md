@@ -2,25 +2,28 @@
 ## Q1: Provide an overview and description of a standard source control process for a large project
 *Source control is the management and tracking of changes to code. Large projects often have numerous individuals contributing and writing code simultaneously. In order to prevent bugs, conflicts, and overwriting other's code, source control is relied on to ensure the development process is smooth with little wasted time backtracking. Below, the standard source control process Git Feature Branch Workflow will be discussed in detail.*
 
-### <strong>Git Feature Branch Overview</strong>
+### <strong>Git Feature Branch Workflow Overview</strong>
+
+1. The code on the `main` branch should always be deployable.
+2. All new features should be their own branch with a descriptive name.
+3. Code should be committed and pushed to these branches consistently throughout development.
+4. Pull requests should happen often and definitely before a branch is merged with the `main`.
+5. Merges only happen after a pull request is extensively reviewed.
+6. Code is deployed immediately after review.
+
+
+### <strong>Git Feature Branch Workflow Description</strong>
 The Feature Branch Workflow is based on the idea that any new feature should be developed on a separate dedicated branch away from the `main` branch. The perk of this workflow is that it allows developers to work on new features without the possibility of breaking existing features on the `main` branch. This ensures that the `main` branch remains consistently functional throughout the development process. 
 
-The feature branch workflow also facilitates extensive use of pull requests, allowing for collaboration and the ability for other developers to sign off before the feature branch is merged into the `main` branch. Pull requests allow the developers to have an open discussion about the code before any major merges or changes. The facilitation of open discussion about feature branches before each branch is implemented greatly reduces the chance that merged code contains bugs or conflicts with with the `main` branch, but also ensures that the feature is complete and functions appropriately. 
+The feature branch workflow also facilitates extensive use of pull requests, allowing for collaboration and the ability for other developers to sign off before the feature branch is merged into the `main` branch. Pull requests allow the developers to have an open discussion about the code before any major merges or changes. The facilitation of open discussion about feature branches before each branch is implemented greatly reduces the chance that merged code contains bugs or conflicts with with the `main` branch, but also ensures that the feature is complete and functions appropriately. This workflow has a few advantages over others.  The main advantage is that it is incredibly simple. This makes it ideal for small teams and web applications where only a single version is in production. 
+
+Despite the numerous benefits, the Git Feature Branch Workflow has its downsides. This strategy doesn't always support continuous integration due to often having long-lived feature branches that are not merged until the feature is completed. Since the feature branches are often extensive, merges in the feature branch workflow often run a much higher risk of conflict with the `main` branch. This often leads to a great deal of time dedicated to ensuring that the feature branch is merged without breaking the `main` branch.  This workflow also does not support having multiple versions of the product at a time due to everything stemming from the single `main` branch. 
 
 <br>
 
-![image](/docs/feturebranchworkflow.png)
-
+![image](/docs/featurebranchworkflow.png)
+<sup>Creator: David Tjomsland</sup>
 <br>
-
-Despite the numerous benefits, the Git Feature Branch Workflow has its downsides. This strategy has long-lived feature branches that are not merged until the feature is completed. Since the feature branches are often extensive, merges in the feature branch workflow often run a much higher risk of conflict with the `main` branch. This often leads to a great deal of time dedicated to ensuring that the feature branch is merged without breaking the `main` branch.
-
-<br>
-
-### <strong>Git Feature Branch Workflow Example:</strong>
-
-
-
 
 <br>
 
