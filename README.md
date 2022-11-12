@@ -165,7 +165,7 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 <br>
 
 ## Q5: With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
-*In reference to my portfolio project, I needed to deploy a large range of skills and knowledge in order to successfully complete my portfolio website. The skills and knowledge that were needed will be discussed in detail below.*
+*In reference to my portfolio project, I needed to deploy a large range of skills and knowledge in order to successfully complete my web page. The skills and knowledge that were needed will be discussed in detail below.*
 
 <br>
 
@@ -187,15 +187,38 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 - <strong>Version Control:</strong> Git and GitHub were used extensively throughout the development of my portfolio website. My knowledge of these technologies assisted in ensuring that the project stayed organized and kept moving forward.  Utilizing the common version control method of Git Feature Branch Workflow, a working product always remained intact after every merge.  This allowed for me to focus more time on developing and less time on backtracking in order to fix conflicts and bugs.
 
+- <strong>User Experience and User Interface:</strong> Knowledge of UX and UI was required in order to make a web page that was both satisfying to look at and  navigate. Heavy planning and personal testing was utilized in order to give the website the feel that I wanted. Features such as animations and colors were utilized to make the website exciting and interactive without being overwhelming to the user. Colors were heavily relied upon to draw the user in and direct them to where I wanted them to go next. The navigation elements were designed to make navigating the website straight forward and obvious, ensuring the user knew where they were and where they were about to go.
 
+- <strong>Color Theory:</strong> Basic color theory was implemented to create a visually appealing website. Online tools assisted me in sorting out which colors would be used as well as the appropriate colors to pair with each other. A dark theme was implemented to create a website that has elements that pop and excite the user. Consideration was made to those with disabilities as well, providing appropriate levels of contrast throughout the site.
+
+- <strong>Prototyping:</strong> Knowledge of prototyping software ensured that I knew what I was going to create before I began creating it.  Starting a project without extensive mock-ups and prototypes guarantees that time will be wasted backtracking nd changing features. This was avoided through the use of Figma, which was utilized to create mock-ups of every web page as well as the arrangement of elements on the most common screen sizes.
 
 ## Q6: With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
+*In reference to my portfolio project, I needed to deploy a large range of skills and knowledge in order to successfully complete my web page. An evaluation of my use of these skills and knowledge will be conducted in detail below.*
 
 <br>
+
+### Soft Skills and Knowledge
+
+- <strong>Time Management:</strong>
+
+### Technical Skills and Knowledge
+
+
+
+<br>
+
+
 
 ## Q7: Explain control flow, using an example from the JavaScript programming language
 
 <br>
+
+### Soft Skills and Knowledge
+
+
+### Technical Skills and Knowledge
+
 
 ## Q8: Explain type coercion, using examples from the JavaScript programming language
 Type coercion is the automatic conversion of a value from one datatype to another. Type coercion is also known as implicit conversion, meaning it is done by code behind the scenes rather than manually. 
