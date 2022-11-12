@@ -71,8 +71,37 @@ Efficient software accomplishes its purpose while using as little amount of reso
 <br>
 
 ## Q3: Outline a standard high level structure for a MERN stack application and explain the components
+*MERN stack is a web development framework that consists of the stack MongoDB, Express.js, React.js, and Node.js.  React is used to create the front-end, Express is used as the server-side framework which runs inside a Node server, and MongoDB is used to store any data. This stack allows for rapid development due to the extensive utilization of a single language: JavaScript. The general high level structure and components of a MERN stack application will be discussed below.*
 
 <br>
+
+![image](/docs/MERNstack.png)
+<sup>Creator: David Tjomsland</sup>
+
+<br>
+
+### <strong>Database: </strong>
+
+<strong>MongoDB:</strong>
+
+### <strong>Top Tier (Front-end): </strong>
+
+<strong>React.js:</strong>
+
+React.js is a JavaScript library created by Meta that allows for the development of complex user interfaces. 
+  
+
+### <strong>Server-side (Back-end):</strong>
+
+<strong>Express.js:</strong>
+
+<strong>Node.js:</strong>
+
+
+
+
+<br>
+
 
 ## Q4: A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
