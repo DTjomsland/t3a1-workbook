@@ -588,12 +588,51 @@ dogs.splice(1, 0, "Mastiff", "Kelpie");
 
 The above code example uses splice to add the new items into the `dogs` array. The first parameter `1` specifies the index where the new items should be spliced in and the second parameter specifies how many pre-existing item should be removed from that position.  The new value of the `dogs` array would be as follows: `["Pug", "Mastiff", "Kelpie", "Labrador", "Poodle", "Dachshund"]`.  The two new strings `"Mastiff"` and `"Kelpie"` were spliced into the position `dogs[1]` and none of the previous values were removed.
 
-
-
+<br>
 
 ## Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
+### JavaScript Objects
+
+In JavaScript, objects are variables that contain many values that are stored in key-value pairs. Objects are particularly helpful when working with different types of data that are all related.  For instance, a profile for an individual containing their information. Objects can contain many different data types which make them incredibly powerful for storing data. As shown below, objects are represented by the use of `{}` around key-value pairs which are separated by commas. 
+
+<strong>Example:</strong>
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+}
+```
+
+The name value-pairs in objects are called properties. In the example above, the properties are `firstName`, `lastName`, `birthPlace`, `age`, and `gender` while the property values are `'Steve'`, `'Stevenson'`, `'North Pole'`, `36`, and `'male'`, respectively.  Object properties can be accessed in two different ways depending on preference. The first is by using the format `objectName.propertyName`.  When using this format for the example above to access the first name of the user, we would write `user.FirstName`. The second way to access object properties is by using the format `objectName["propertyName"]`. When using this format for the example above to access the first name of the user, we would write `user["firstName"]`.
+
 <br>
+
+### Object Manipulation in JavaScript
+*Manipulation of objects is an essential tool for any JavaScript developer. Below manipulation techniques will be discussed in detail.*
+
+<strong>Object Creation</strong>
+
+Objects in JavaScript can be created in multiple ways, the most common are as follows: using object literal, creating an instance of 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Q12: Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
