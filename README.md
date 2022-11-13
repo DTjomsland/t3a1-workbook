@@ -22,6 +22,7 @@ Despite the numerous benefits, the Git Feature Branch Workflow has its downsides
 <br>
 
 ![image](/docs/featurebranchworkflow.png)
+
 <sup>Creator: David Tjomsland</sup>
 <br>
 
@@ -76,6 +77,7 @@ Efficient software accomplishes its purpose while using as little amount of reso
 <br>
 
 ![image](/docs/MERNstack.png)
+
 <sup>Creator: David Tjomsland</sup>
 
 <br>
@@ -455,9 +457,139 @@ const numberOneWorkbook = {
 }
 ```
 
-## Q10: Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
-Arrays in JavaScript are variables that are used to store different data types and can hold more than one value.
 <br>
+
+## Q10: Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+### JavaScript Arrays
+
+Arrays in JavaScript are variables that are used to store different data types and can hold more than one value.  Arrays are particularly helpful when dealing with larger amounts of data or variables that are similar in the values they hold.  For instance, if a developer is comparing or utilizing bike models and data, they could use an array to store the bike information instead of  creating a new variable for each bike make. Utilization of arrays is paramount in order to keep code concise and DRY. 
+
+<strong>Example:</strong>
+
+```javascript
+//instead of using variables for each
+let bike1 = 'schwinn';
+let bike2 = 'trek';
+let bike3 = 'raleigh';
+
+//you can store the data in an array
+let bikes =  ['schwinn', 'trek', 'raleigh']
+```
+
+Arrays are accessible through the use of each items corresponding index number. Indexing begins at `0` and increments by one.  The indexes for the bikes in the previous array would be as follows: `bikes[0]` (schwinn), `bikes[1]` (trek), `bikes[2]` (raleigh).  Arrays are powerful not only because they can store multiple values, but because there are a wide arrange of available tools to manipulate arrays and their values inside. 
+
+<br>
+
+### Array Manipulation in JavaScript
+
+*Manipulation of arrays is an essential tool for any JavaScript developer. Below manipulation techniques will be discussed in detail.*
+
+<strong>Array Properties</strong>
+
+In JavaScript, array properties are a staple when it comes to the manipulation of arrays. The standard properties of an Array object in Javascript are `length` and `prototype`. The `length` property sets or returns the length of the array which is determined by how many elements are in the array. The `prototype` property allows for the addition of new properties and methods to and Array object.  Below is an example of how the `length` property can be can be used to assist a `for` loop in the manipulation of an array.
+
+<strong>Example:</strong>
+
+```javascript
+let myArray = [1, 2, 3, 4, 5]
+
+for (let i = 0; i < myArray.length; i++) {
+    myArray[i] + 1
+    }
+```
+
+The `length` property in this `for` loop is used to specify how many iterations of the loop will occur, in this case, five.  The loop then adds the number `1` to the value that is specified in that particular iteration. The `length` property is a powerful tool, allowing for the array to be any size, assisting the `loop` to manipulate every value within it.
+
+<br>
+
+<strong>Array Methods:</strong>
+
+In JavaScript, array methods are incredibly powerful tools when it comes to array manipulation. Array methods are built in functions that perform a change or calculation to arrays which streamlines array manipulation due to the elimination of the need to write common functions from scratch. Common array methods include, but are not limited to, the following: `pop()`, `push()`, `shift()`, `unshift()`, `concat()`, and `splice()`. Below are some examples and explanations of how these common JavaScript array methods are used to manipulate arrays. 
+
+<br>
+
+<strong>Example: `pop()`</strong>
+
+The `pop()` method is used to remove the last value from an array and return that value.
+
+```javascript
+const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
+let dog = dogs.pop();
+```
+
+The above code example uses the `pop()` method to remove the last value from an array and stores it in the variable `dog`.  The value of the `dog` variable is the string `"Dachsund"`.
+
+<br>
+
+<strong>Example: `push()`</strong>
+
+The `push()` method is used to add a new element to the end of an array and return the new array length.
+
+```javascript
+const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
+let newLength = dogs.push("Kelpie");
+```
+
+The above code example uses the `push()` method to add the string `"Kelpie"` to the end of the `dogs` array and assign the new length as the value of variable `newLength`, which is the number`5`.
+
+<br>
+
+<strong>Example: `shift()`</strong>
+
+Similar to the `pop()` method, the `shift()` method is used to remove an element from an array.  Instead of removing the last element like `pop()`, `shift()` removes and returns the first element of an array. 
+
+
+```javascript
+const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
+let dog = dogs.shift();
+```
+
+The above code example uses the `shift()` method to remove the first value from an array and stores it in the variable `dog`.  The value of the `dog` variable is the string `"Pug"`.
+
+<br>
+
+<strong>Example: `unshift()`</strong>
+
+The `unshift()` method is used to add a new element to the beginning of an array and return the arrays new length.
+
+```javascript
+const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
+let newLength = dogs.unshift("Mastiff");
+```
+
+The above code example uses the `unshift()` method to add the string `"Mastiff"` to the beginning of the array and assign the new length  as the value of the variable `newLength`, which is the number `5`.
+
+<br>
+
+<strong>Example: `concat()`</strong>
+
+The `concat()` method is used to concatenate multiple arrays into a new array.
+
+```javascript
+const bigDogs = ["Labrador", "Poodle"];
+const smallDogs = ["Pug", "Dachshund"];
+
+const allDogs = bigDogs.concat(smallDogs);
+```
+
+The above code example uses the `concat()` method to combine the arrays `bigDogs` and `smallDogs` into a new array `allDogs`. The value of the variable `allDogs` is `["Labrador", "Poodle", "Pug", "Dachshund"]`.
+
+<br>
+
+<strong>Example: `splice()`</strong>
+
+The `splice()` method is used to used to add new items into an array.  Unlike `push()` and `unshift()` methods, `splice()` allows the position of the added items to be specified using additional parameters.
+
+```javascript
+const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
+dogs.splice(1, 0, "Mastiff", "Kelpie");
+```
+
+The above code example uses splice to add the new items into the `dogs` array. The first parameter `1` specifies the index where the new items should be spliced in and the second parameter specifies how many pre-existing item should be removed from that position.  The new value of the `dogs` array would be as follows: `["Pug", "Mastiff", "Kelpie", "Labrador", "Poodle", "Dachshund"]`.  The two new strings `"Mastiff"` and `"Kelpie"` were spliced into the position `dogs[1]` and none of the previous values were removed.
+
+
+
 
 ## Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
@@ -467,9 +599,9 @@ Arrays in JavaScript are variables that are used to store different data types a
 
 <br>
 
-## Q13: For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
+## Q13: For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognize and identify functions, ranges and classes
 
-```
+``` javascript
 class Car {
   constructor(brand) {
     this.carname = brand;
