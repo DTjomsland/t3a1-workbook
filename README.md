@@ -757,7 +757,7 @@ delete user.firstName;
 
 // Result
 // const user = {
-//   lastName: 'Frankenson',
+//   lastName: 'Stevenson',
 //   birthPlace: 'North Pole',
 //   age: 36,
 //   gender: 'male' 
@@ -790,6 +790,7 @@ let userKeys = Object.keys(user);
 <br>
 
 Object.values() Method: Creates a new array out of the values of the object.
+
 ```javascript
 const user = {
   firstName: 'Steve',
@@ -809,6 +810,7 @@ let userValues = Object.values(user);
 <br>
 
 Object.entries() Method: Creates a new array out of the key-value pairs of the object.
+
 ```javascript
 const user = {
   firstName: 'Steve',
