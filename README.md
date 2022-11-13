@@ -15,7 +15,7 @@
 ### <strong>Git Feature Branch Workflow Description</strong>
 The Feature Branch Workflow is based on the idea that any new feature should be developed on a separate dedicated branch away from the `main` branch. The perk of this workflow is that it allows developers to work on new features without the possibility of breaking existing features on the `main` branch. This ensures that the `main` branch remains consistently functional throughout the development process. 
 
-The feature branch workflow also facilitates extensive use of pull requests, allowing for collaboration and the ability for other developers to sign off before the feature branch is merged into the `main` branch. Before a feature branch is merged with the `main`, a pull request must be made in order to investigate its compatibility. Pull requests allow the developers to have an open discussion about the code before any major merges or changes. The facilitation of open discussion about feature branches before each branch is implemented greatly reduces the chance that merged code contains bugs or conflicts with with the `main` branch, but also ensures that the feature is complete and functions appropriately. This workflow has a few advantages over others.  The main advantage is that it is incredibly simple which makes it ideal for small teams and web applications where only a single version is in production. 
+The feature branch workflow also facilitates extensive use of pull requests, allowing for collaboration and the ability for other developers to sign off before the feature branch is merged into the `main` branch. Before a feature branch is merged with the `main`, a pull request must be made in order to investigate its compatibility. Pull requests allow the developers to have an open discussion about the code before any major merges or changes. The facilitation of open discussion about feature branches before each branch is implemented greatly reduces the chance that merged code contains bugs or conflicts with the `main` branch, but also ensures that the feature is complete and functions appropriately. This workflow has a few advantages over others.  The main advantage is that it is incredibly simple which makes it ideal for small teams and web applications where only a single version is in production. 
 
 Despite the numerous benefits, the Git Feature Branch Workflow has its downsides. This strategy doesn't always support continuous integration due to often having long-lived feature branches that are not merged until the feature is completed. Since the feature branches are often extensive, merges in the feature branch workflow often run a much higher risk of conflict with the `main` branch. This often leads to a great deal of time dedicated to ensuring that the feature branch is merged without breaking the `main` branch.  This workflow also does not support having multiple versions of the product at a time due to everything stemming from the single `main` branch. 
 
@@ -35,7 +35,7 @@ Despite the numerous benefits, the Git Feature Branch Workflow has its downsides
 
 <strong>Usability:</strong>
 
-Usability is measured by how easy the software is to use. Software should be user friendly, easily navigated, and relatively simple to learn.  User's skills often vary greatly, so creating intuitive software is key in ensuring all users have a great experience. Users should also be able to to use the core features of software without much help.  This means that key features should be as self-explanatory as possible.
+Usability is measured by how easy the software is to use. Software should be user friendly, easily navigated, and relatively simple to learn.  User's skills often vary greatly, so creating intuitive software is key in ensuring all users have a great experience. Users should also be able to use the core features of software without much help.  This means that key features should be as self-explanatory as possible.
 
 <br>
 
@@ -47,14 +47,14 @@ Consistency is key when it comes to software reliability. Software should always
 
 <strong>Understandability:</strong>
 
-Understandability includes ensuring that every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software engineer can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth as well as the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
+Understandability includes ensuring that every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software engineer can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth as well as the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessary level of understandability. 
 
 <br>
 
 
 <strong>Testability:</strong>
 
-Software should be easily testable so that bugs and inconsistencies can be found.  Testability includes the ability to test all components and use cases easily and accurately. This should be one of of the primary concerns when planning the structure of software so that it may be easily divided into modules for testing. Testability ensures that software ships and works as intended.
+Software should be easily testable so that bugs and inconsistencies can be found.  Testability includes the ability to test all components and use cases easily and accurately. This should be one of the primary concerns when planning the structure of software so that it may be easily divided into modules for testing. Testability ensures that software ships and works as intended.
 
 <br>
 
@@ -88,7 +88,7 @@ Efficient software accomplishes its purpose while using as little amount of reso
 
 React.js is a JavaScript library created by Meta that allows for the development of complex user interfaces. The primary feature of React.js is the ability to create code that is reusable, which saves large amounts of time in the development process. The key to this feature is that React.js is component based, allowing for components to be reused throughout the application. Another key feature of React.js is that it utilizes a virtual DOM, which is a representation of the original DOM. Changes made only modify the Virtual DOM, which saves resources and time due to eliminating the need to send a request to the server every time the user interacts with the interface. React.js utilizes JavaScript XML (JSX), which is neither HTML or XML, but a syntax extension to JavaScript. JSX assists in describing what the UI should look like and writing the aforementioned components. 
 
-The role of React.js in MERN stack is provide a user friendly UI that can collect user data and input which can be sent server-side for processing.
+The role of React.js in MERN stack is to provide a user-friendly UI that can collect user data and input which can be sent server-side for processing.
 
 <br>
 
@@ -104,7 +104,7 @@ A typical Node.js file request would look like the following:
 - Server is ready to handle the next request
 - When the file system opens and reads the file, then the server sends the content back to the front-end.
 
-This varies significantly from other environments in terms fo efficiency.  Typically, the server is not ready to handle the next request until the entire transmission has finished, meaning the request would need to be handled and the content returned to the front-end before the next task could begin. This greatly reduces the wait time and efficiently uses memory.
+This varies significantly from other environments in terms of efficiency.  Typically, the server is not ready to handle the next request until the entire transmission has finished, meaning the request would need to be handled and the content returned to the front-end before the next task could begin. This greatly reduces the wait time and efficiently uses memory.
 
 The role of Node.js in MERN stack is to provide a server-side environment that can execute JavaScript, in this case, Express.js.
 
@@ -148,13 +148,13 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 ### Technical Skills and Knowledge:
 
-- <strong>HTML:</strong> HyperText Markup Language is the foundation for most websites. It is typically the first skill learned and requires in depth knowledge to use appropriately and effectively. HTML provides the structure of a website.
+- <strong>HTML:</strong> HyperText Markup Language is the foundation for most websites. It is typically the first skill learned and requires in-depth knowledge to use appropriately and effectively. HTML provides the structure of a website.
 
 - <strong>CSS:</strong> Cascading Style Sheets defines the visual appearance of HTML. Developers must have extensive knowledge of CSS in order to create a website that is visually appealing and user-friendly.
 
-- <strong>JavaScript:</strong> Interactive components of the front-end of website are handled by JavaScript. Developers must know JavaScript in order to make a modern web application.  JavaScript knowledge also streamlines the development process because it can be used in both the frontend and the backend.
+- <strong>JavaScript:</strong> Interactive components of the front-end of a website are handled by JavaScript. Developers must know JavaScript in order to make a modern web application.  JavaScript knowledge also streamlines the development process because it can be used in both the frontend and the backend.
 
-- <strong>Sever-side Languages:</strong> No website is complete without a rock solid backend.  This requires knowledge of common server-side programming languages such as JavaScript, PHP, Python, and Ruby.
+- <strong>Server-side Languages:</strong> No website is complete without a rock solid backend.  This requires knowledge of common server-side programming languages such as JavaScript, PHP, Python, and Ruby.
 
 - <strong>Database Management Systems:</strong> Knowledge of database management systems is key to providing a website that is both effective and secure. Examples of common database management systems include PostgreSQL and MongoDB.
 
@@ -173,7 +173,7 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 ### Soft Skills and Knowledge
 
-- <strong>Time Management:</strong> Time management skills were a must in order to develop my portfolio website in the allotted amount of time. For this project, I used Trello to keep myself focused, on task, and on time. Each feature was given a Trello card and within each card was a list of tasks that needed to be completed with a due date. As tasks were completed successfully, they would be moved to the *Done* list, and then the development of the feature with the next closest due date would be begin. Trello can only do so much in assisting with time management as it cannot force you to complete the task. That being so, motivation and perseverance were essential in managing my time for this project.
+- <strong>Time Management:</strong> Time management skills were a must in order to develop my portfolio website in the allotted amount of time. For this project, I used Trello to keep myself focused, on task, and on time. Each feature was given a Trello card and within each card was a list of tasks that needed to be completed with a due date. As tasks were completed successfully, they would be moved to the *Done* list, and then the development of the feature with the next closest due date would begin. Trello can only do so much in assisting with time management as it cannot force you to complete the task. That being so, motivation and perseverance were essential in managing my time for this project.
 
 - <strong>Project Management:</strong> Knowing when and where to begin the project as well as ensuring development stayed the course played a major role in the completion and quality of my portfolio website. I deployed project management skills from the start of the project, which included proper planning through the use of Trello, detailed mock-ups on Figma, and hammering out a general theme early (colors, fonts, and design styles). When a task was first able to be completed, I made sure that I did so to prevent any need for backtracking and redoing work. I also implemented a basic Git Feature Branch Workflow that I made sure to stick to in order to keep the project moving forward.
 
@@ -189,11 +189,11 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 - <strong>Version Control:</strong> Git and GitHub were used extensively throughout the development of my portfolio website. My knowledge of these technologies assisted in ensuring that the project stayed organized and kept moving forward.  Utilizing the common version control method of Git Feature Branch Workflow, a working product always remained intact after every merge.  This allowed for me to focus more time on developing and less time on backtracking in order to fix conflicts and bugs.
 
-- <strong>User Experience and User Interface:</strong> Knowledge of UX and UI was required in order to make a web page that was both satisfying to look at and  navigate. Heavy planning and personal testing was utilized in order to give the website the feel that I wanted. Features such as animations and colors were utilized to make the website exciting and interactive without being overwhelming to the user. Colors were heavily relied upon to draw the user in and direct them to where I wanted them to go next. The navigation elements were designed to make navigating the website straight forward and obvious, ensuring the user knew where they were and where they were about to go.
+- <strong>User Experience and User Interface:</strong> Knowledge of UX and UI was required in order to make a web page that was both satisfying to look at and  navigate. Heavy planning and personal testing was utilized in order to give the website the feel that I wanted. Features such as animations and colors were utilized to make the website exciting and interactive without being overwhelming to the user. Colors were heavily relied upon to draw the user in and direct them to where I wanted them to go next. The navigation elements were designed to make navigating the website straightforward and obvious, ensuring the user knew where they were and where they were about to go.
 
 - <strong>Color Theory:</strong> Basic color theory was implemented to create a visually appealing website. Online tools assisted me in sorting out which colors would be used as well as the appropriate colors to pair with each other. A dark theme was implemented to create a website that has elements that pop and excite the user. Consideration was made to those with disabilities as well, providing appropriate levels of contrast throughout the site.
 
-- <strong>Prototyping:</strong> Knowledge of prototyping software ensured that I knew what I was going to create before I began creating it.  Starting a project without extensive mock-ups and prototypes guarantees that time will be wasted backtracking nd changing features. This was avoided through the use of Figma, which was utilized to create mock-ups of every web page as well as the arrangement of elements on the most common screen sizes.
+- <strong>Prototyping:</strong> Knowledge of prototyping software ensured that I knew what I was going to create before I began creating it.  Starting a project without extensive mock-ups and prototypes guarantees that time will be wasted backtracking and changing features. This was avoided through the use of Figma, which was utilized to create mock-ups of every web page as well as the arrangement of elements on the most common screen sizes.
 
 <br>
 
@@ -205,7 +205,7 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 ### Soft Skills and Knowledge
 
 
-- <strong>Time Management:</strong> Managing my time was an issue during the creation of my portfolio project, but I feel like I managed it quite well considering my lofty goals with technologies that I had just been acquainted with. I utilized Trello relatively well throughout the development process, but did find myself going off-script fairly often.  While working, I found that if I learned a new skill, I would immediately need to apply it to previously completed work instead of continuing to complete the task at hand which took up a lot of time. The ability stick to the plan and timeline of the project is a skill that I need to work on. 
+- <strong>Time Management:</strong> Managing my time was an issue during the creation of my portfolio project, but I feel like I managed it quite well considering my lofty goals with technologies that I had just been acquainted with. I utilized Trello relatively well throughout the development process, but did find myself going off-script fairly often.  While working, I found that if I learned a new skill, I would immediately need to apply it to previously completed work instead of continuing to complete the task at hand which took up a lot of time. The ability to stick to the plan and timeline of the project is a skill that I need to work on. 
 
 - <strong>Project Management:</strong> Planning and executing the steps for my portfolio website was well organized for the most part. I had a plan and I stuck to it outside of a few instances where I learned a new skill and applied it elsewhere. A notably good example was how well the website was sorted before I wrote a line of code.  All of my colors, margins, sizes, and fonts were planned beforehand. It saved a lot of time not having to rewrite code over and over because of trial and error. I feel as though this was one of my strongest skills deployed for my portfolio project.
 
@@ -217,13 +217,13 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 - <strong>HTML:</strong> My HTML knowledge was lacking at the beginning of the project. I was constantly switching between tag types due to confusion and initially overused divs. I was able to fully grasp the use-cases for each tag by the end of the assignment, but I should have spent more time solidifying them before attempting to structure my HTML.  It would have saved quite a bit of time if I had a better understanding from the beginning.
 
-- <strong>CSS:</strong> Styling was the one thing I was very confident about going into the project.  My knowledge of CSS felt solid and I was able to place and style most features without much issue.  If I were to create a similar project, I would definitely spend time gaining more knowledge about SASS and ways in which is expedites the development process. I didn't use too many of it's features for the project.
+- <strong>CSS:</strong> Styling was the one thing I was very confident about going into the project.  My knowledge of CSS felt solid and I was able to place and style most features without much issue.  If I were to create a similar project, I would definitely spend time gaining more knowledge about SASS and ways in which it expedites the development process. I didn't use too many of its features for the project.
 
-- <strong>Version Control:</strong> My Git and GitHub Skills and knowledge were not well honed, but were adequate given the size of the project.  I feel I did a good job committing changed frequently throughout the development process.  One area I feel I can improve upon is being diligent about creating new branches for every feature. I was often working on multiple features per branch which was not an issue due to them being relatively small features, but I did have a few issues with breaking my `main` branch and wasting time trying to figure out what feature broke it. 
+- <strong>Version Control:</strong> My Git and GitHub Skills and knowledge were not well honed, but were adequate given the size of the project.  I feel I did a good job committing changes frequently throughout the development process.  One area I feel I can improve upon is being diligent about creating new branches for every feature. I was often working on multiple features per branch which was not an issue due to them being relatively small features, but I did have a few issues with breaking my `main` branch and wasting time trying to figure out what feature broke it. 
 
-- <strong>User Experience and User Interface:</strong> My skills in UX/UI were the ones I felt most confident about during the development of the portfolio website. I had used Figma to a large extent before I began the coding process.  The flow and features of the web site were planned early on and fine tuned through many user scenarios. Every placement and style had a reason for why it was there.  One area I was lacking is understanding what the typical breakpoints would be fore devices.  My initial UX design failed to take into account some higher pixel density devices.  Gaining more knowledge about how to handle design for different devices would definitely help improve my skills as a UX designer. 
+- <strong>User Experience and User Interface:</strong> My skills in UX/UI were the ones I felt most confident about during the development of the portfolio website. I had used Figma to a large extent before I began the coding process.  The flow and features of the web site were planned early on and fine tuned through many user scenarios. Every placement and style had a reason for why it was there.  One area I was lacking is understanding what the typical breakpoints would be for devices.  My initial UX design failed to take into account some higher pixel density devices.  Gaining more knowledge about how to handle design for different devices would definitely help improve my skills as a UX designer. 
 
-- <strong>Color Theory:</strong> My skills in color theory were lacking during the creation of the portfolio site.  I feel I some decent raw skills for color choice, but gaining actual knowledge on color theory would've helped me with this project. I relied heavily on color tools such as Coolers to assist me in choosing the color palette.  I think it would be helpful to study color trends and the feelings colors evoke before I develop another website.
+- <strong>Color Theory:</strong> My skills in color theory were lacking during the creation of the portfolio site.  I feel I have some decent raw skills for color choice, but gaining actual knowledge on color theory would've helped me with this project. I relied heavily on color tools such as Coolers to assist me in choosing the color palette.  I think it would be helpful to study color trends and the feelings colors evoke before I develop another website.
 
 - <strong>Prototyping:</strong> My prototyping skills were quite good considering I had just learned how to use Figma.  I spent a great deal of time creating every element on Figma exactly as it should be on the screen. Pixels, color codes, and screen sizes were well planned before a line of code was written.  One area I could use more knowledge on is the advanced prototyping techniques that Figma offers. Constantly having to change colors and styles individually throughout all of my mock-ups was very time consuming, so mastering tools to eliminate that would streamline the development process.
 
@@ -233,7 +233,7 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 ## Q7: Explain control flow, using an example from the JavaScript programming language
 
-Control flow is the order in which computers execute code. In JavaScript, the computer reads code from top to bottom, line by line, meaning that it starts from the first line and and reads each line in order until it reaches the last line. However, there are structures that can change the control flow.  Structures such as conditionals and loops are used to disrupt the control flow and change the order of execution of the code. Control flow enables our program to make decisions about which code should be executed next.
+Control flow is the order in which computers execute code. In JavaScript, the computer reads code from top to bottom, line by line, meaning that it starts from the first line and reads each line in order until it reaches the last line. However, there are structures that can change the control flow.  Structures such as conditionals and loops are used to disrupt the control flow and change the order of execution of the code. Control flow enables our program to make decisions about which code should be executed next.
 
 <br>
 
@@ -255,7 +255,7 @@ else {
     console.log("Ain't no good boys round here!");
 }
 ```
-In the example above, the `if` condition is met, so the the line `console.log("Who's a good boy!?")` will be executed. If the `if` condition was not met, the line `console.log("Ain't no good boys round here!")` would be executed. 
+In the example above, the `if` condition is met, so the line `console.log("Who's a good boy!?")` will be executed. If the `if` condition was not met, the line `console.log("Ain't no good boys round here!")` would be executed. 
 
 <br>
 
@@ -284,13 +284,13 @@ for (let i = 0; i < 9; i++) {
 // 8
 ```
 
-In the example above, the three optional parameters are used to control the execution of the loop. The syntax for this is `for (initialization; condition; finalExpression)`. The variable `i` begins the loop with a value of `0`, and as long it's value is less than `9` the loop is executed.  After each iteration,  the value of `i` is increased by `1` (`i++`).  This alters the control flow by telling the computer to repeat the process 9 times before moving on. 
+In the example above, the three optional parameters are used to control the execution of the loop. The syntax for this is `for (initialization; condition; finalExpression)`. The variable `i` begins the loop with a value of `0`, and as long as its value is less than `9` the loop is executed.  After each iteration,  the value of `i` is increased by `1` (`i++`).  This alters the control flow by telling the computer to repeat the process 9 times before moving on. 
 
 <br>
 
 
 ## Q8: Explain type coercion, using examples from the JavaScript programming language
-Type coercion is the automatic conversion of a value from one datatype to another. Type coercion is also known as implicit conversion, meaning it is done by code behind the scenes rather than manually. 
+Type coercion is the automatic conversion of a value from one data type to another. Type coercion is also known as implicit conversion, meaning it is done by code behind the scenes rather than manually. 
 
 In JavaScript, type coercion includes conversions such as string to number, number to string, and boolean to number, to name a few. Type coercion is common when operators are used on different data types.   For instance, when a string and a number are added or an equality operator (==) is used on two different data types. In these cases, one of the data types will be automatically converted to allow the operation to complete successfully. 
 
@@ -298,7 +298,7 @@ In JavaScript, type coercion includes conversions such as string to number, numb
 
 <strong>Example 1: String to Number</strong> 
 
-When math operators such as subtraction (-), division (/), multiplication (*), or modulus (%) are used, all values involved that are not number are converted to the number datatype. This occurs because these operations can only be applied to the number datatype. 
+When math operators such as subtraction (-), division (/), multiplication (*), or modulus (%) are used, all values involved that are not numbers are converted to the number data type. This occurs because these operations can only be applied to the number data type. 
 
 ```javascript
 const number = 10;
@@ -309,7 +309,7 @@ let dif = number - stringNumber;
 console.log(dif)
 ```
 
-In the example above, JavaScript will coerce `stringNumber` into a number datatype, then perform the operation. The value of dif will be the difference between `10` and `9` which is `1`.
+In the example above, JavaScript will coerce `stringNumber` into a number data type, then perform the operation. The value of dif will be the difference between `10` and `9` which is `1`.
 <br>
 
 <strong>Example 2: Number to String</strong> 
@@ -325,7 +325,7 @@ let sum = number + stringNumber;
 console.log(sum)
 ```
 
-In the example above, JavaScript will coerce `number` into the string datatype resulting in `10` being added to `stringNumber`.  Because of coercion, the result of `number + stringNumber` results in the string `"109"`
+In the example above, JavaScript will coerce `number` into the string data type resulting in `10` being added to `stringNumber`.  Because of coercion, the result of `number + stringNumber` results in the string `"109"`
 
 <strong>Example 3: Boolean to Number</strong> 
 
@@ -345,7 +345,7 @@ In the example above, JavaScript will coerce the Boolean value `false` into the 
 
 ## Q9: Explain data types, using examples from the JavaScript programming language
 
-Data types are a feature of all programming languages, but these types often differ from language to language. A datatype is a classification that specifies the type of value and what type of relational or logical operations can be are allowed to be used on it.  Common data types in most languages include, but are not limited to, integers, booleans, floats, strings, and arrays. 
+Data types are a feature of all programming languages, but these types often differ from language to language. A data type is a classification that specifies the type of value and what type of relational or logical operations can be are allowed to be used on it.  Common data types in most languages include, but are not limited to, integers, booleans, floats, strings, and arrays. 
 
 In JavaScript, there are eight primitive types of data.  These primitive data types include strings, booleans, numbers, BigInt, Symbol, object ,null, and undefined. Of these eight basic data types, seven are primitive and one, Object, is non-primitive.  Object is non-primitive because it can store collections of data while the others can 
 only store one single data. *Below are some examples of data types in JavaScript.*
@@ -405,7 +405,7 @@ const washedFeet = false;
 <br>
 
 ### Undefined
-In JavaScript, the undefined datatype occurs when a value is not assigned. For instance, if a variable is declared but not given a value or a variable is assigned the value undefined.
+In JavaScript, the undefined data type occurs when a value is not assigned. For instance, if a variable is declared but not given a value or a variable is assigned the value undefined.
 
 
 <strong>Example:</strong>
@@ -445,7 +445,7 @@ const mySymbol2 = Symbol('best workbook ever');
 
 ### Object
 
-In JavaScript, an Object represents the only complex data type out of the basic data types because is stores a collection of data rather than one single data. 
+In JavaScript, an Object represents the only complex data type out of the basic data types because it stores a collection of data rather than one single data. 
 
 <strong>Example:</strong>
 
@@ -477,7 +477,7 @@ let bike3 = 'raleigh';
 let bikes =  ['schwinn', 'trek', 'raleigh']
 ```
 
-Arrays are accessible through the use of each items corresponding index number. Indexing begins at `0` and increments by one.  The indexes for the bikes in the previous array would be as follows: `bikes[0]` (schwinn), `bikes[1]` (trek), `bikes[2]` (raleigh).  Arrays are powerful not only because they can store multiple values, but because there are a wide arrange of available tools to manipulate arrays and their values inside. 
+Arrays are accessible through the use of each item's corresponding index number. Indexing begins at `0` and increments by one.  The indexes for the bikes in the previous array would be as follows: `bikes[0]` (schwinn), `bikes[1]` (trek), `bikes[2]` (raleigh).  Arrays are powerful not only because they can store multiple values, but because there are a wide range of available tools to manipulate arrays and their values inside. 
 
 <br>
 
@@ -487,7 +487,7 @@ Arrays are accessible through the use of each items corresponding index number. 
 
 <strong>Array Properties</strong>
 
-In JavaScript, array properties are a staple when it comes to the manipulation of arrays. The standard properties of an Array object in Javascript are `length` and `prototype`. The `length` property sets or returns the length of the array which is determined by how many elements are in the array. The `prototype` property allows for the addition of new properties and methods to and Array object.  Below is an example of how the `length` property can be can be used to assist a `for` loop in the manipulation of an array.
+In JavaScript, array properties are a staple when it comes to the manipulation of arrays. The standard properties of an Array object in Javascript are `length` and `prototype`. The `length` property sets or returns the length of the array which is determined by how many elements are in the array. The `prototype` property allows for the addition of new properties and methods to an Array object.  Below is an example of how the `length` property can be used to assist a `for` loop in the manipulation of an array.
 
 <strong>Example:</strong>
 
@@ -518,7 +518,7 @@ const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
 let dog = dogs.pop();
 ```
 
-The above code example uses the `pop()` method to remove the last value from an array and stores it in the variable `dog`.  The value of the `dog` variable is the string `"Dachsund"`.
+The above code example uses the `pop()` method to remove the last value from an array and store it in the variable `dog`.  The value of the `dog` variable is the string `"Dachsund"`.
 
 <br>
 
@@ -551,7 +551,7 @@ The above code example uses the `shift()` method to remove the first value from 
 
 <strong>Example: `unshift()`</strong>
 
-The `unshift()` method is used to add a new element to the beginning of an array and return the arrays new length.
+The `unshift()` method is used to add a new element to the beginning of an array and return the array's new length.
 
 ```javascript
 const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
@@ -579,14 +579,14 @@ The above code example uses the `concat()` method to combine the arrays `bigDogs
 
 <strong>Example: `splice()`</strong>
 
-The `splice()` method is used to used to add new items into an array.  Unlike `push()` and `unshift()` methods, `splice()` allows the position of the added items to be specified using additional parameters.
+The `splice()` method is used to add new items into an array.  Unlike `push()` and `unshift()` methods, `splice()` allows the position of the added items to be specified using additional parameters.
 
 ```javascript
 const dogs = ["Pug", "Labrador", "Poodle", "Dachshund"];
 dogs.splice(1, 0, "Mastiff", "Kelpie");
 ```
 
-The above code example uses splice to add the new items into the `dogs` array. The first parameter `1` specifies the index where the new items should be spliced in and the second parameter specifies how many pre-existing item should be removed from that position.  The new value of the `dogs` array would be as follows: `["Pug", "Mastiff", "Kelpie", "Labrador", "Poodle", "Dachshund"]`.  The two new strings `"Mastiff"` and `"Kelpie"` were spliced into the position `dogs[1]` and none of the previous values were removed.
+The above code example uses splice to add the new items into the `dogs` array. The first parameter `1` specifies the index where the new items should be spliced in and the second parameter specifies how many pre-existing items should be removed from that position.  The new value of the `dogs` array would be as follows: `["Pug", "Mastiff", "Kelpie", "Labrador", "Poodle", "Dachshund"]`.  The two new strings `"Mastiff"` and `"Kelpie"` were spliced into the position `dogs[1]` and none of the previous values were removed.
 
 <br>
 
@@ -675,7 +675,7 @@ const user = new User();
 
 ### Manipulation of JavaScript Objects
 
-*Objects in JavaScript can be manipulated in a variety of ways. Adding, deleting, and changing key-value pairs within an object can be achieved using the previously explained dot and square bracket notation. However, there are a variety of powerful tools that can be used to achieve object manipulation, such as object methods. Object methods, are object properties that contain a function definition.  These will be discussed in detail below.*
+*Objects in JavaScript can be manipulated in a variety of ways. Adding, deleting, and changing key-value pairs within an object can be achieved using the previously explained dot and square bracket notation. However, there are a variety of powerful tools that can be used to achieve object manipulation, such as object methods. Object methods are object properties that contain a function definition.  These will be discussed in detail below.*
 
 <strong>Adding a Key Value Pair</strong>
 
@@ -864,7 +864,7 @@ JSON is a common text-based format used to represent structured data which mirro
 
 <strong>`JSON.stringify()` Method:</strong>
 
-The `JSON.stringify()` method is used to convert a JavaScript object into a JSON string. When sending data over to a web server, the data as to be a string, which means that in order to send a JavaScript Object, it must be converted first. Below is an example of `JSON.stringify()` being used to convert a JavaScript object into a JSON string.
+The `JSON.stringify()` method is used to convert a JavaScript object into a JSON string. When sending data over to a web server, the data needs to be a string, which means that in order to send a JavaScript Object, it must be converted first. Below is an example of `JSON.stringify()` being used to convert a JavaScript object into a JSON string.
 
 ```javascript
 const user = {
