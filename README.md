@@ -822,7 +822,12 @@ const user = {
 let userEntries = Object.entries(user);
 
 //result
-//userEntries value is [['firstName', 'Steve'], ['lastName, 'Stevenson'], ['birthPlace', 'North Pole'], ['age', 36 ], ['gender','male']]
+//userEntries value is 
+// [['firstName', 'Steve'], 
+// ['lastName, 'Stevenson'], 
+// ['birthPlace', 'North Pole'], 
+// ['age', 36 ], 
+// ['gender','male']]
 ```
 
 In the above examples, new arrays are created out of the keys, values, and the key-value pairs. Having these entries in the form of an array opens the door to using the numerous and powerful JavaScript array methods we have at our disposal.
@@ -837,18 +842,17 @@ In the above examples, new arrays are created out of the keys, values, and the k
 
 JSON is a common text-based format used to represent structured data which mirrors the Javascript object syntax. Just like a JavaScript object, it is composed of  key value-pairs wrapped in `{}`.  Unlike a JavaScript object, JSON keys and values must be wrapped in double quotes. The common use for the JSON format is for the transferral of data from the server that is then displayed by the website/application. 
 
-<strong>Example of a JSON Object</strong>
+<strong>Example of JSON Format</strong>
 
 ```json
 {
-"user" : {
   "firstName": "Steve",
   "lastName": "Stevenson",
   "birthPlace": "North Pole",
   "age": 36,
   "gender": "male"
-  }
 }
+
 ```
 
 ### Manipulation of JSON
