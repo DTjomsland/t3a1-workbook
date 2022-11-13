@@ -15,7 +15,7 @@
 ### <strong>Git Feature Branch Workflow Description</strong>
 The Feature Branch Workflow is based on the idea that any new feature should be developed on a separate dedicated branch away from the `main` branch. The perk of this workflow is that it allows developers to work on new features without the possibility of breaking existing features on the `main` branch. This ensures that the `main` branch remains consistently functional throughout the development process. 
 
-The feature branch workflow also facilitates extensive use of pull requests, allowing for collaboration and the ability for other developers to sign off before the feature branch is merged into the `main` branch. Pull requests allow the developers to have an open discussion about the code before any major merges or changes. The facilitation of open discussion about feature branches before each branch is implemented greatly reduces the chance that merged code contains bugs or conflicts with with the `main` branch, but also ensures that the feature is complete and functions appropriately. This workflow has a few advantages over others.  The main advantage is that it is incredibly simple. This makes it ideal for small teams and web applications where only a single version is in production. 
+The feature branch workflow also facilitates extensive use of pull requests, allowing for collaboration and the ability for other developers to sign off before the feature branch is merged into the `main` branch. Before a feature branch is merged with the `main`, a pull request must be made in order to investigate its compatibility. Pull requests allow the developers to have an open discussion about the code before any major merges or changes. The facilitation of open discussion about feature branches before each branch is implemented greatly reduces the chance that merged code contains bugs or conflicts with with the `main` branch, but also ensures that the feature is complete and functions appropriately. This workflow has a few advantages over others.  The main advantage is that it is incredibly simple which makes it ideal for small teams and web applications where only a single version is in production. 
 
 Despite the numerous benefits, the Git Feature Branch Workflow has its downsides. This strategy doesn't always support continuous integration due to often having long-lived feature branches that are not merged until the feature is completed. Since the feature branches are often extensive, merges in the feature branch workflow often run a much higher risk of conflict with the `main` branch. This often leads to a great deal of time dedicated to ensuring that the feature branch is merged without breaking the `main` branch.  This workflow also does not support having multiple versions of the product at a time due to everything stemming from the single `main` branch. 
 
@@ -47,7 +47,7 @@ Consistency is key when it comes to software reliability. Software should always
 
 <strong>Understandability:</strong>
 
-Understandability includes the ensuring that the every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software engineer can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth as well as the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
+Understandability includes ensuring that every component and the overall structure of the source code is understandable. The source code should be organized and developed in a consistent manner so that any software engineer can easily understand components and their usage. When software is understandable, it streamlines the development process by reducing back and forth as well as the downtime that occurs when trying to locate and decipher components. If code causes confusion among developers, it is a sign that the code is lacking the necessarily level of understandability. 
 
 <br>
 
@@ -209,7 +209,7 @@ MongoDB's role in MERN stack is to store the JSON documents that are created by 
 
 - <strong>Project Management:</strong> Planning and executing the steps for my portfolio website was well organized for the most part. I had a plan and I stuck to it outside of a few instances where I learned a new skill and applied it elsewhere. A notably good example was how well the website was sorted before I wrote a line of code.  All of my colors, margins, sizes, and fonts were planned beforehand. It saved a lot of time not having to rewrite code over and over because of trial and error. I feel as though this was one of my strongest skills deployed for my portfolio project.
 
-- <strong>Critical Thinking:</strong> This is a skill that I felt I used to the best of my ability at the time.  I spent a lot of time connecting dots and understanding how everything interacts.  Just about every feature had a pros and cons list in order to make the best choices. I would definitely have done certain parts differently based on the knowledge I have now, but given the knowledge I had at the time, I feel like i utilized my critical thinking skills effectively and to the fullest extent given the circumstances.
+- <strong>Critical Thinking:</strong> This is a skill that I felt I used to the best of my ability at the time.  I spent a lot of time connecting dots and understanding how everything interacts.  Just about every feature had a pros and cons list in order to make the best choices. I would definitely have done certain parts differently based on the knowledge I have now, but given the knowledge I had at the time, I feel like I utilized my critical thinking skills effectively and to the fullest extent given the circumstances.
 
 <br>
 
@@ -959,7 +959,7 @@ function randomIntFromInterval(min,max) {
 for (model of models) {
   //Assigns a random element from the makes array to the variable make
   make = makes[randomIntFromInterval(0,makes.length-1)]
-  //Assigns a random element form the model array to the variable model
+  //Assigns a random element from the model array to the variable model
   model = models[randomIntFromInterval(0,makes.length-1)]
   //Creates a new instance of the 'Model' class and assigns it to the variable mycar.
   mycar = new Model(make, model);
@@ -967,3 +967,111 @@ for (model of models) {
   console.log(mycar.show())
 }
 ```
+
+<br>
+
+## Works Cited
+
+### Question 1:
+
+Atlassian (2019a). Git Feature Branch Workflow | Atlassian Git Tutorial. [online] Atlassian. Available at: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow.
+
+GitHub Docs. (n.d.). About pull requests. [online] Available at: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests.
+
+Symphony.is. (n.d.). Git your branching together - branching models compared. [online] Available at: https://symphony.is/blog/git-your-branching-together---branching-models-compared [Accessed 13 Nov. 2022].
+
+<br>
+
+### Question 2:
+
+Reinagel, S. (2016). The Seven Aspects of Software Quality. [online] Silas Reinagel. Available at: https://www.silasreinagel.com/blog/2016/11/15/the-seven-aspects-of-software-quality/.
+
+Softwaretestinghelp.com. (2007). What Are The Quality Attributes? [online] Available at: https://www.softwaretestinghelp.com/what-are-the-quality-attributes/.
+
+testbytes (2020). What is Software Quality? and How to achieve it? [online] Testbytes. Available at: https://www.testbytes.net/blog/what-is-software-quality/.
+
+<br>
+
+
+### Question 3:
+
+Educative Answers Team (2019). What is MERN Stack? [online] Educative: Interactive Courses for Software Developers. Available at: https://www.educative.io/answers/what-is-mern-stack.
+
+MDN Web Docs. (n.d.). Express/Node introduction. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction.
+
+MongoDB (2022). What is the MERN Stack? Introduction & Examples. [online] MongoDB. Available at: https://www.mongodb.com/mern-stack.
+
+<br>
+
+### Question 4:
+
+Skillcrush. (n.d.). The 9 Skills You Need to Become a Web Designer in 2019. [online] Available at: https://skillcrush.com/blog/be-a-successful-web-designer/.
+
+www.skillsyouneed.com. (n.d.). 21 Essential Skills for Web Designers | SkillsYouNeed. [online] Available at: https://www.skillsyouneed.com/rhubarb/skills-web-designer.html.
+
+<br>
+
+### Question 5:
+
+Skillcrush. (n.d.). The 9 Skills You Need to Become a Web Designer in 2019. [online] Available at: https://skillcrush.com/blog/be-a-successful-web-designer/.
+
+www.skillsyouneed.com. (n.d.). 21 Essential Skills for Web Designers | SkillsYouNeed. [online] Available at: https://www.skillsyouneed.com/rhubarb/skills-web-designer.html.
+
+<br>
+
+### Question 6:
+
+Skillcrush. (n.d.). The 9 Skills You Need to Become a Web Designer in 2019. [online] Available at: https://skillcrush.com/blog/be-a-successful-web-designer/.
+
+www.skillsyouneed.com. (n.d.). 21 Essential Skills for Web Designers | SkillsYouNeed. [online] Available at: https://www.skillsyouneed.com/rhubarb/skills-web-designer.html.
+
+<br>
+
+### Question 7:
+
+DEV Community. (n.d.). Practical Functional Programming in JavaScript - Control Flow. [online] Available at: https://dev.to/richytong/practical-functional-programming-in-javascript-control-flow-2fim.
+
+developer.mozilla.org. (n.d.). Control flow - MDN Web Docs Glossary: Definitions of Web-related terms | MDN. [online] Available at: https://developer.mozilla.org/en-US/docs/Glossary/Control_flow.
+
+<br>
+
+### Question 8:
+
+developer.mozilla.org. (n.d.). Type coercion - MDN Web Docs Glossary: Definitions of Web-related terms | MDN. [online] Available at: https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion.
+
+Samoshkin, A. (2018). JavaScript type coercion explained. [online] freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/.
+
+<br>
+
+### Question 9:
+
+MDN Web Docs. (2019). JavaScript data types and data structures. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures.
+
+www.programiz.com. (n.d.). JavaScript Data Types (with Examples). [online] Available at: https://www.programiz.com/javascript/data-types.
+
+<br>
+
+### Question 10:
+
+Medium. (n.d.). Medium. [online] Available at: https://medium.com/@mandeepkaur1/a-list-of-javascript-array-methods.
+
+w3schools (2019). JavaScript Array Methods. [online] W3schools.com. Available at: https://www.w3schools.com/js/js_array_methods.asp.
+
+<br>
+
+### Question 11:
+
+www.programiz.com. (n.d.). JavaScript Constructor Function (with Examples). [online] Available at: https://www.programiz.com/javascript/constructor-function [Accessed 13 Nov. 2022].
+
+www.w3schools.com. (n.d.). JavaScript Objects. [online] Available at: https://www.w3schools.com/js/js_objects.asp.
+
+<br>
+
+### Question 12:
+
+Mozilla (2022). Working with JSON. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON.
+
+W3schools.com. (2019). JSON.parse(). [online] Available at: https://www.w3schools.com/Js/js_json_parse.asp.
+
+W3schools.com. (2019). JSON.stringify(). [online] Available at: https://www.w3schools.com/js/js_json_stringify.asp.
+
