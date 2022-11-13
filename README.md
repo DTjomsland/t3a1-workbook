@@ -592,6 +592,8 @@ The above code example uses splice to add the new items into the `dogs` array. T
 
 ## Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
+<br>
+
 ### JavaScript Objects
 
 In JavaScript, objects are variables that contain many values that are stored in key-value pairs. Objects are particularly helpful when working with different types of data that are all related.  For instance, a profile for an individual containing their information. Objects can contain many different data types which make them incredibly powerful for storing data. As shown below, objects are represented by the use of `{}` around key-value pairs which are separated by commas. 
@@ -611,36 +613,233 @@ The name value-pairs in objects are called properties. In the example above, the
 
 <br>
 
-### Object Manipulation in JavaScript
-*Manipulation of objects is an essential tool for any JavaScript developer. Below manipulation techniques will be discussed in detail.*
+### Object Creation in JavaScript
+*Objects in JavaScript can be created in multiple ways, the most common are as follows: using object literal, creating an instance of an object using the object constructor, and using a Constructor Function. These will be discussed in detail below.*
 
-<strong>Object Creation</strong>
+<br>
 
-Objects in JavaScript can be created in multiple ways, the most common are as follows: using object literal, creating an instance of 
+<strong>Object Literal</strong>:
+
+Object literal is the most basic way to create a new object. As seen before, using object literal is essentially setting a variable equal to `{}` containing key-value pairs.
+
+<strong>Example:</strong>
+
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+}
+```
+
+<br>
+
+<strong>Object Constructor</strong>:
+
+Using an object constructor to create an instance of an object directly is another popular object creation strategy. In the example below, the `new` keyword is used alongside the `Object()` instance to create a new object. 
+
+```javascript
+const user = new Object ( {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+});
+```
+
+<br>
+
+<strong>Constructor Function</strong>:
+
+Using a constructor function is an effective way of creating an object, as well. In the example below, the constructor function,`function User()`, is called alongside the `new` keyword to create the object within the constructor function.
+
+<br>
+
+```javascript
+//constructor function
+Function User() {
+  this.firstName: 'Steve',
+  this.lastName: 'Stevenson',
+  this.birthPlace: 'North Pole',
+  this.age: 36,
+  this.gender: 'male'
+};
+
+//create a new object
+const user = new User();
+```
+<br>
+
+### Manipulation of JavaScript Objects
+
+*Objects in JavaScript can be manipulated in a variety of ways. Adding, deleting, and changing key-value pairs within an object can be achieved using the previously explained dot and square bracket notation. However, there are a variety of powerful tools that can be used to achieve object manipulation, such as object methods. Object methods, are object properties that contain a function definition.  These will be discussed in detail below.*
+
+<strong>Adding a Key Value Pair</strong>
+
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+};
+
+//Addition through dot notation
+user.email = 'steve@gmail.com';
+//Addition through bracket notation
+user['phoneNumber'] = '123456';
+
+// Result
+// const user = {
+//   firstName: 'Steve',
+//   lastName: 'Stevenson',
+//   birthPlace: 'North Pole',
+//   age: 36,
+//   gender: 'male',
+//   email: 'steve@gmail.com',
+//   phoneNumber: '123456'
+// }
+```
+
+In the above example, both dot and bracket notation are used to add new key-value pairs to the object `user`. The result is two new keys, `email` and `phoneNumber`, which are paired with two new string values, `'steve@gmail.com'` and `'123456'`, respectively.
+
+
+<br>
+
+<strong>Changing a Value</strong>
+
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+};
+
+//Value change through dot notation
+user.firstName = 'Frank';
+//Value change through bracket notation
+user['lastName'] = 'Frankenson';
+
+// Result
+// const user = {
+//   firstName: 'Frank',
+//   lastName: 'Frankenson',
+//   birthPlace: 'North Pole',
+//   age: 36,
+//   gender: 'male' 
+// }
+```
+
+In the above example, both dot and bracket notation are used to change the values of the keys `firstName` and `lastName` from `'Steve'` and `'Stevenson'` to `"Frank"` and `"Frankenson"`, respectively.  
+
+<br>
+
+<strong>Deleting a Key-Value Pair</strong>
+
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+};
+
+//Delete through dot notation
+delete user.firstName;
+
+
+// Result
+// const user = {
+//   lastName: 'Frankenson',
+//   birthPlace: 'North Pole',
+//   age: 36,
+//   gender: 'male' 
+// }
+```
+In the above example, the key `firstName` was targeted through dot notation and completely deleted from the object using the keyword `delete`.  If instead of deleting the entire pair, the goal is to remove the value, the value can be set to `null` through the previously explained value change method. 
+
+<br>
+
+<strong>Using Object Methods to Convert Keys and Values into Arrays</strong>
+
+Object.keys() Method: Creates a new array out of the keys of the object.
+
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+};
+
+//Creating and array out of the keys
+let userKeys = Object.keys(user);
+
+//result
+//userKeys value is ['firstName', 'lastName', 'birthPlace', 'age', 'gender']
+```
+
+<br>
+
+Object.values() Method: Creates a new array out of the values of the object.
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+};
+
+//Creating and array out of the values
+let userValues = Object.values(user);
+
+//result
+//userValues value is ['Steve', 'Stevenson', 'North Pole', 36, 'male']
+```
+
+<br>
+
+Object.entries() Method: Creates a new array out of the key-value pairs of the object.
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+};
+
+//Creating and array out of the entries
+let userEntries = Object.entries(user);
+
+//result
+//userEntries value is [['firstName', 'Steve'], ['lastName, 'Stevenson'], ['birthPlace', 'North Pole'], ['age', 36 ], ['gender','male']]
+```
+
+In the above examples, new arrays are created out of the keys, values, and the key-value pairs. Having these entries in the form of an array opens the door to using the numerous and powerful JavaScript array methods we have at our disposal.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 ## Q12: Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+
 
 <br>
 
 ## Q13: For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognize and identify functions, ranges and classes
 
-``` javascript
+```javascript
 class Car {
   constructor(brand) {
     this.carname = brand;
