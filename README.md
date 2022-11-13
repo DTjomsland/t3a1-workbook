@@ -833,7 +833,81 @@ In the above examples, new arrays are created out of the keys, values, and the k
 
 ## Q12: Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
+### JavaScript Object Notation (JSON)
 
+JSON is a common text-based format used to represent structured data which mirrors the Javascript object syntax. Just like a JavaScript object, it is composed of  key value-pairs wrapped in `{}`.  Unlike a JavaScript object, JSON keys and values must be wrapped in double quotes. The common use for the JSON format is for the transferral of data from the server that is then displayed by the website/application. 
+
+<strong>Example of a JSON Object</strong>
+
+```json
+{
+"user" : {
+  "firstName": "Steve",
+  "lastName": "Stevenson",
+  "birthPlace": "North Pole",
+  "age": 36,
+  "gender": "male"
+  }
+}
+```
+
+### Manipulation of JSON
+*In JavaScript, JSON files are manipulated in a similar way as JavaScript objects are. The difference in strategies is due to the format differences. The methods `JSON.stingify()` and `parse()` will be discussed in detail below.*
+
+<br>
+
+<strong>`JSON.stringify()` Method:</strong>
+
+The `JSON.stringify()` method is used to convert a JavaScript object into a JSON string. When sending data over to a web server, the data as to be a string, which means that in order to send a JavaScript Object, it must be converted first. Below is an example of `JSON.stringify()` being used to convert a JavaScript object into a JSON string.
+
+```javascript
+const user = {
+  firstName: 'Steve',
+  lastName: 'Stevenson',
+  birthPlace: 'North Pole',
+  age: 36,
+  gender: 'male'
+};
+
+const userJSON = JSON.stringify(user);
+
+// Value of userJSON would be:
+// {
+//   "firstName": "Steve",
+//   "lastName": "Stevenson",
+//   "birthPlace": "North Pole",
+//   "age": 36,
+//   "gender": "male"
+// }
+```
+
+
+<br>
+
+<strong>`JSON.parse()` Method:</strong>
+
+The `JSON.parse()` method is used to convert a JSON string into a JavaScript object. When data is sent from a web server, it is sent as a string which is sometimes in the JSON format.  Converting a JSON string into a JavaScript object allows us to use all of the JavaScript object manipulation techniques we have at our disposal. Below is an example of how to convert a JSON string into a JavaScript object.
+
+```javascript
+const text = {
+  "firstName": "Steve",
+  "lastName": "Stevenson",
+  "birthPlace": "North Pole",
+  "age": 36,
+  "gender": "male"
+  }
+
+const user = JSON.parse(text)
+
+// Value of user would be:
+// {
+//   firstName: 'Steve',
+//   lastName: 'Stevenson',
+//   birthPlace: 'North Pole',
+//   age: 36,
+//   gender: 'male'
+// }
+```
 
 <br>
 
