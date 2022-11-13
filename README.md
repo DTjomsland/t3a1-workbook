@@ -856,7 +856,7 @@ JSON is a common text-based format used to represent structured data which mirro
 ```
 
 ### Manipulation of JSON
-*In JavaScript, JSON files are manipulated in a similar way as JavaScript objects are. The difference in strategies is due to the format differences. The methods `JSON.stingify()` and `parse()` will be discussed in detail below.*
+*In JavaScript, JSON files are manipulated in a similar way as JavaScript objects are. The difference in strategies is due to the format differences. The methods `JSON.stringify()` and `parse()` will be discussed in detail below.*
 
 <br>
 
@@ -918,38 +918,52 @@ const user = JSON.parse(text)
 ## Q13: For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognize and identify functions, ranges and classes
 
 ```javascript
+//Initialize the class 'Car'
 class Car {
+  //Initialize a constructor that takes the argument "brand"
   constructor(brand) {
+    //This refers to the instance of this class. Assigns carname the value of the parameter 'brand' 
     this.carname = brand;
   }
+  //Present is a method of the Car class. 
   present() {
+    //Every time present() is called, it will return a string.  The variable carname within the string will be the brand that was passed through the constructor
     return 'I have a ' + this.carname;
   }
 }
-
+//Initializes the class Model. "extends Car" means that Model is a child of the parent class Car which means it will inherit from it.
 class Model extends Car {
+  //A model constructor with two parameters (brand and mod)
   constructor(brand, mod) {
+    //Instantiates the brand parameter for the parent class "Car". Allows access to the carname.
     super(brand);
+    //This refers to the instance of this class. Assigns model the value of the parameter 'mod'
     this.model = mod;
   }
+  //Show is a method of the class Model. 
   show() {
+    //Returns a string that is a the combination of the present method from the parent class Car and this.model from the current class Model
     return this.present() + ', it was made in ' + this.model;
   }
 }
-
+//Creates an array with car make elements and assigns it to the 'makes' variable.
 let makes = ["Ford", "Holden", "Toyota"]
+//Creates an array with 40 values that range from 1980-2019. This array is assigned to the 'models' variable.
 let models = Array.from(new Array(40), (x,i) => i + 1980)
-
-function randomIntFromInterval(min,max) { // min and max included
+//Function declaration that accepts the parameters min and max
+function randomIntFromInterval(min,max) { 
+    //Generates and returns a random number that is between min and max numbers.
     return Math.floor(Math.random()*(max-min+1)+min);
 }
-
+//A for loop that loops through the 40 elements of the models array
 for (model of models) {
-
+  //Assigns a random element from the makes array to the variable make
   make = makes[randomIntFromInterval(0,makes.length-1)]
+  //Assigns a random element form the model array to the variable model
   model = models[randomIntFromInterval(0,makes.length-1)]
-
+  //Creates a new instance of the 'Model' class and assigns it to the variable mycar.
   mycar = new Model(make, model);
+  //Logs the show method using the make and model stored in the variable mycar
   console.log(mycar.show())
 }
 ```
